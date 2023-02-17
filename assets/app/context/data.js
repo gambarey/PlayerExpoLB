@@ -9,7 +9,8 @@ const data = {
         "mediaType": "audio",
         "modificationTime": 1382378612000,
         "uri": "https://res.cloudinary.com/daaaaanx5/video/upload/v1676647306/songs/ember_2021_stems_bounce_1_slwdxi.wav",
-        "width": 0
+        "width": 0,
+        "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1676664567/songs/proba_5_hukbgo.jpg"
     },
     {
         "albumId": "1",
@@ -21,7 +22,8 @@ const data = {
         "mediaType": "audio",
         "modificationTime": 1382378612000,
         "uri": "https://res.cloudinary.com/daaaaanx5/video/upload/v1676647311/songs/canon_2021_bounce_1_wchn5d.wav",
-        "width": 0
+        "width": 0,
+        "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1676664567/songs/proba_4_g5tvtu.jpg"
     }
     ],
     "endCursor": "363",
@@ -30,26 +32,3 @@ const data = {
 }
 
 module.exports = data;
-
-// {
-//     "audio_files" [
-//       {
-//         "id": "1",
-//         "url": "https://res.cloudinary.com/daaaaanx5/video/upload/v1676647306/songs/ember_2021_stems_bounce_1_slwdxi.wav",
-//         "title": "Audio 1",
-//         "description": "This is the description for audio 1"
-//       },
-//       {
-//         "id": "2",
-//         "url": "https://res.cloudinary.com/daaaaanx5/video/upload/v1676647311/songs/canon_2021_bounce_1_wchn5d.wav",
-//         "title": "Audio 2",
-//         "description": "This is the description for audio 2"
-//       },
-//       {
-//         "id": "3",
-//         "url": "https://res.cloudinary.com/daaaaanx5/video/upload/v1676647303/songs/lighthouse_2021_bounce_1_kbzsll.wav",
-//         "title": "Audio 3",
-//         "description": "This is the description for audio 3"
-//       }
-//     ]
-//   }

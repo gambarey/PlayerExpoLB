@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react';
-import { View, Text, StyleSheet, Dimensions } from 'react-native';
+import { View, Text, StyleSheet, Dimensions, Image } from 'react-native';
 import color from '../misc/color';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import Slider from '@react-native-community/slider';
@@ -73,10 +73,14 @@ const Player = () => {
           </Text>
         </View>
         <View style={styles.midBannerContainer}>
-          <MaterialCommunityIcons
+        <Image
+    source={{ uri: context.currentAudio.artwork }}
+    style={{ width: 300, height: 300 }}
+  />
+          {/* <MaterialCommunityIcons
             name="music-circle"
             size={300}
-            color={context.isPlaying ? color.ACTIVE_BG : color.FONT_LIGHT} />
+            color={context.isPlaying ? color.ACTIVE_BG : color.FONT_LIGHT} /> */}
         </View>
         <View style={styles.audioPlayerContainer}>
           <Text numberOfLines={1}
