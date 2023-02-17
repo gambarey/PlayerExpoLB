@@ -1,8 +1,8 @@
 import React from 'react';
 import { DefaultTheme, NavigationContainer } from '@react-navigation/native';
-import AppNavigator from './PlayerExpo/assets/app/navigation/AppNavigator';
-import AudioProvider from './PlayerExpo/assets/app/context/AudioProvider';
-import color from './PlayerExpo/assets/app/misc/color';
+import AppNavigator from './assets/app/navigation/AppNavigator';
+import AudioProvider from './assets/app/context/AudioProvider';
+import color from './assets/app/misc/color';
 
 const MyTheme = {
   ...DefaultTheme,
