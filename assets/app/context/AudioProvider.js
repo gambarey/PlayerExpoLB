@@ -6,7 +6,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Audio } from 'expo-av';
 import { storeAudioForNextOpening } from '../misc/helper';
 import { playNext } from '../misc/AudioController';
-import {songs} from "./data"
+// import {songs} from "./data.js"
 
 export const AudioContext = createContext();
 export class AudioProvider extends Component {
@@ -46,25 +46,8 @@ export class AudioProvider extends Component {
 
   getAudioFiles = async () => {
     const { dataProvider, audioFiles } = this.state;
-    let media = {
-      "assets": [{
-          "albumId": "1",
-          "creationTime": 0,
-          "duration": 47.229,
-          "filename": "test audio",
-          "height": 0,
-          "id": "2196",
-          "mediaType": "audio",
-          "modificationTime": 1382378612000,
-          "uri": "https://res.cloudinary.com/daaaaanx5/video/upload/v1676647306/songs/ember_2021_stems_bounce_1_slwdxi.wav",
-          "width": 0
-      }
-      ],
-      "endCursor": "363",
-      "hasNextPage": false,
-      "totalCount": 1
-  }
-    // this.totalAudioCount = media.totalCount;
+const media = require("./data.js");
+    this.totalAudioCount = media.totalCount;
     console.log(media)
     
 

@@ -1,4 +1,4 @@
-const songs = {
+const data = {
     "assets": [{
         "albumId": "1",
         "creationTime": 0,
@@ -16,6 +16,8 @@ const songs = {
     "hasNextPage": false,
     "totalCount": 1
 }
+
+module.exports = data;
 
 // {
 //     "audio_files" [
