@@ -88,6 +88,7 @@ const media = require("./data.js");
     // "granted": false, 
     // "status": "undetermined" 
     // }
+    /////////////////////////////////////////////
     const permission = await MediaLibrary.getPermissionsAsync()
     if (permission.granted) {
       this.getAudioFiles();
