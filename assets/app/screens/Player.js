@@ -1,7 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { View, Text, StyleSheet, Dimensions, Image } from 'react-native';
 import color from '../misc/color';
-import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import Slider from '@react-native-community/slider';
 import PlayerButton from '../components/PlayerButton';
 import { AudioContext } from '../context/AudioProvider';
@@ -73,10 +72,10 @@ const Player = () => {
           </Text>
         </View>
         <View style={styles.midBannerContainer}>
-        <Image
-    source={{ uri: context.currentAudio.artwork }}
-    style={{ width: 300, height: 300 }}
-  />
+          <Image
+            source={{ uri: context.currentAudio.artwork }}
+            style={{ width: 300, height: 300 }}
+          />
           {/* <MaterialCommunityIcons
             name="music-circle"
             size={300}
@@ -154,7 +153,8 @@ const styles = StyleSheet.create({
     justifyContent: 'space-around',
     alignItems: 'center',
     paddingBottom: 20,
-    marginHorizontal: 60
+    marginHorizontal: 40,
+    marginVertical: 20
   },
   audioCount: {
     color: color.FONT_LIGHT,

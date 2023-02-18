@@ -1,28 +1,28 @@
 import React from 'react';
-import { AntDesign } from '@expo/vector-icons';
+import { MaterialIcons } from '@expo/vector-icons';
 import color from '../misc/color';
 
 const PlayerButton = props => {
     const { iconType,
-        size = 40,
+        size = 55,
         iconColor = color.FONT,
         onPress } = props;
     const getIconName = (type) => {
         switch (type) {
             case 'play':
-                return 'playcircleo';
+                return 'play-arrow';
             case 'pause':
-                return 'pausecircleo';
+                return 'pause';
             case 'forward':
-                return 'forward';
+                return 'skip-next';
             case 'backward':
-                return 'banckward';
+                return 'skip-previous';
             default:
-                return 'caretright';
+                return 'play-arrow';
         }
     };
     return (
-        <AntDesign
+        <MaterialIcons
             {...props}
             onPress={onPress}
             name={getIconName(iconType)}

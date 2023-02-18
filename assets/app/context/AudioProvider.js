@@ -48,7 +48,7 @@ export class AudioProvider extends Component {
     const { dataProvider, audioFiles } = this.state;
 const media = require("./data.js");
     this.totalAudioCount = media.totalCount;
-    console.log(media)
+    // console.log(media)
     
 
     this.setState({
