@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react';
-import { View, Text, StyleSheet, Dimensions, Image } from 'react-native';
+import { View, Text, StyleSheet, Dimensions, Image, Modal, TouchableOpacity, ScrollView } from 'react-native';
 import color from '../misc/color';
 import Slider from '@react-native-community/slider';
 import PlayerButton from '../components/PlayerButton';
@@ -7,6 +7,8 @@ import { AudioContext } from '../context/AudioProvider';
 import { play, pause, resume, playNext, selectAudio, changeAudio, moveAudio } from '../misc/AudioController';
 import { convertTime, storeAudioForNextOpening } from '../misc/helper';
 import Screen from '../components/Screen';
+import { MaterialIcons } from '@expo/vector-icons';
+import InfoModal from '../components/InfoModal';
 
 const { width } = Dimensions.get('window');
 
@@ -55,10 +57,16 @@ const Player = () => {
     return convertTime(context.playbackPosition / 1000);
   }
 
+  const [modalVisible, setModalVisible] = useState(false);
+
+  const openModal = () => {
+    setModalVisible(true);
+  };
+
   return (
     <Screen>
       <View style={styles.container}>
-        <View style={styles.audioCountContainer}>
+        {/* <View style={styles.audioCountContainer}>
           <View style={{ flexDirection: "row" }}>
             {context.isPlayListRunning && (
               <>
@@ -70,7 +78,7 @@ const Player = () => {
           <Text style={styles.audioIndex}>
             {`${context.currentAudioIndex + 1} / ${context.totalAudioCount}`}
           </Text>
-        </View>
+        </View> */}
         <View style={styles.midBannerContainer}>
           <Image
             source={{ uri: context.currentAudio.artwork }}
@@ -81,6 +89,13 @@ const Player = () => {
             size={300}
             color={context.isPlaying ? color.ACTIVE_BG : color.FONT_LIGHT} /> */}
         </View>
+        <MaterialIcons
+          name="info"
+          size={34}
+          color="black"
+          style={{ marginLeft: "80%" }}
+          onPress={openModal}
+        />
         <View style={styles.audioPlayerContainer}>
           <Text numberOfLines={1}
             style={styles.audioTitle} >
@@ -134,6 +149,17 @@ const Player = () => {
           </View>
         </View>
       </View>
+      <Modal visible={modalVisible} animationType="slide">
+        <View style={styles.modalContainer}>
+          <TouchableOpacity style={styles.closeButton} onPress={() => setModalVisible(false)}>
+            <Text>Close</Text>
+          </TouchableOpacity>
+          <ScrollView>
+            {/* Your modal content goes here */}
+          </ScrollView>
+        </View>
+      </Modal>
+
     </Screen>
   );
 };
@@ -167,9 +193,10 @@ const styles = StyleSheet.create({
     alignItems: 'center'
   },
   audioTitle: {
-    color: color.FONT,
-    fontSize: 16,
-    padding: 15
+    fontSize: 28,
+    textAlign: "center",
+    textTransform: "capitalize",
+    marginVertical: 20,
   },
 });
 
