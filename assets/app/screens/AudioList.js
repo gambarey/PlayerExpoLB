@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ScrollView, Text, StyleSheet, Dimensions, TouchableOpacity } from 'react-native';
+import { ScrollView, Text, StyleSheet, Dimensions } from 'react-native';
 import { AudioContext } from '../context/AudioProvider';
 import { RecyclerListView, LayoutProvider } from 'recyclerlistview';
 import AudioListItem from '../components/AudioListItem';
@@ -53,7 +53,9 @@ export class AudioList extends Component {
     this.context.updateState(this.context, {
       addToPlayList: this.currentItem
     });
-    this.props.navigation.navigate('PlayList');
+    this.setState({ ...this.state, optionModalVisible: false });
+    
+
   };
 
   render() {
@@ -65,9 +67,6 @@ export class AudioList extends Component {
           }
           return (
             <Screen>
-              <TouchableOpacity onPress={() => this.props.navigation.navigate('Player')}>
-                <Text>Album 1</Text>
-              </TouchableOpacity>
               <RecyclerListView
                 dataProvider={dataProvider}
                 layoutProvider={this.layoutProvider}
