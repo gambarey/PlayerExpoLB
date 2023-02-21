@@ -1,5 +1,5 @@
 import { Modal, StyleSheet, ScrollView, TouchableOpacity, View, Text } from "react-native";
-
+import color from "../misc/color";
 const InfoModal = ({
     visible,
     onClose,
@@ -26,6 +26,14 @@ const styles = StyleSheet.create({
     modalContainer: {
         flex: 1,
         backgroundColor: '#fff',
+        position: 'absolute',
+        bottom: 0,
+        left: 0,
+        right: 0,
+        backgroundColor: color.APP_BG,
+        borderTopLeftRadius: 20,
+        borderTopRightRadius: 20,
+        zIndex: 1000
       },
       closeButton: {
         alignSelf: 'flex-end',

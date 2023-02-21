@@ -44,7 +44,7 @@ const AppNavigator = () => {
         ),
       }
       } />
-    <Tab.Screen
+    {/* <Tab.Screen
       name='PlayList'
       component={PlayListScreen}
       options={{
@@ -55,7 +55,7 @@ const AppNavigator = () => {
             color={color} />
         ),
       }
-      } />
+      } /> */}
   </Tab.Navigator>
 };
 

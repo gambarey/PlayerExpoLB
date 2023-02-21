@@ -10,7 +10,7 @@ import Screen from '../components/Screen';
 import { MaterialIcons } from '@expo/vector-icons';
 import InfoModal from '../components/InfoModal';
 
-const { width } = Dimensions.get('window');
+const { width, height } = Dimensions.get('window');
 
 const Player = () => {
   const [currentPosition, setCurrentPosition] = useState(0);
@@ -62,6 +62,8 @@ const Player = () => {
   const openModal = () => {
     setModalVisible(true);
   };
+
+  console.log(context.currentAudio);
 
   return (
     <Screen>
@@ -155,7 +157,9 @@ const Player = () => {
             <Text>Close</Text>
           </TouchableOpacity>
           <ScrollView>
-            {/* Your modal content goes here */}
+            <Text>
+              {("lorem ipsum").repeat(100)}
+            </Text>
           </ScrollView>
         </View>
       </Modal>
@@ -197,6 +201,25 @@ const styles = StyleSheet.create({
     textAlign: "center",
     textTransform: "capitalize",
     marginVertical: 20,
+  },
+  modalContainer: {
+  position: 'absolute',
+    bottom: 0,
+    alignItems: 'center',
+    width: width - 15,
+    height: height - 350,
+    backgroundColor: 'gray',
+    borderTopLeftRadius: 30,
+    borderTopRightRadius: 30,
+    zIndex: 100,
+    padding: 10,
+  },
+  closeButton: {
+    // alignSelf: 'flex-end',
+    margin: 10,
+    padding: 5,
+    backgroundColor: '#ddd',
+    borderRadius: 10,
   },
 });
 
