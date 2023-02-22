@@ -17,7 +17,7 @@ export class AudioList extends Component {
     this.state = {
       optionModalVisible: false,
     };
-    this.currentItem = {};
+    this.currentItem = [];
   }
 
   layoutProvider = new LayoutProvider((i) => "audio", (type, dim) => {
@@ -53,10 +53,11 @@ export class AudioList extends Component {
     this.context.updateState(this.context, {
       addToPlayList: this.currentItem
     });
-    this.setState({ ...this.state, optionModalVisible: false });
-    
-
+    this.props.navigation.navigate('PlayList');
+    console.log(this.context)
   };
+
+  
 
   render() {
     return (
@@ -68,7 +69,9 @@ export class AudioList extends Component {
           return (
             <Screen>
               <RecyclerListView
-                dataProvider={dataProvider}
+              // get albumId from props and filter dataProvider
+                // dataProvider={dataProvider}
+                 dataProvider={dataProvider.cloneWithRows(dataProvider._data.filter(item => item.albumId === (this.props.route.params.albumId ? this.props.route.params.albumId : "1")))} 
                 layoutProvider={this.layoutProvider}
                 rowRenderer={this.rowRenderer}
                 extendedState={{ isPlaying }}
@@ -83,7 +86,8 @@ export class AudioList extends Component {
                 //   });
                 //   this.props.navigation.navigate('PlayList');
                 // }}
-                options={[{ title: "Add to Playlist", onPress:this.navigateToPlayList }]}
+                options={[{ title: "Add to Playlist", onPress:this.currentItem.forEach( item =>
+                  item.navigateToPlayList) }]}
                 currentItem={this.currentItem}
                 onClose={() => this.setState({ ...this.state, optionModalVisible: false })} visible={this.state.optionModalVisible} />
             </Screen>

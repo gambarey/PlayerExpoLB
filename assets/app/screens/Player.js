@@ -158,7 +158,7 @@ const Player = () => {
           </TouchableOpacity>
           <ScrollView>
             <Text>
-              {("lorem ipsum").repeat(100)}
+              {context.currentAudio.description}
             </Text>
           </ScrollView>
         </View>
