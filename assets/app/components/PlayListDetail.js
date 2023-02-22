@@ -16,8 +16,8 @@ const PlayListDetail = ({ visible, playList, onClose }) => {
       transparent
       onRequestClose={onClose}
     >
-      <View style={styles.container}>
-        <Text style={styles.title}>{playList.title}</Text>
+      {/* <View style={styles.container}>
+        <Text style={styles.title}>Test</Text>
         <FlatList
           contentContainerStyle={styles.listContainer}
           data={playList.audios}
@@ -33,7 +33,7 @@ const PlayListDetail = ({ visible, playList, onClose }) => {
           )}
         />
       </View>
-      <View style={[StyleSheet.absoluteFillObject, styles.modalBG]} />
+      <View style={[StyleSheet.absoluteFillObject, styles.modalBG]} /> */}
     </Modal>
   );
 };
