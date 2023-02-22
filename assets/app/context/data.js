@@ -26,6 +26,18 @@ const data = {
         "width": 0,
         "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1676664567/songs/proba_4_g5tvtu.jpg",
         "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+    },
+    {
+        "id": "99",
+        "title": "Jupiter",
+        "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1676664567/songs/proba_5_hukbgo.jpg",
+        "description": "lorem ipsum dolor sit amet",
+    },
+    {
+        "id": "98",
+        "title": "No one understands what we've been given (Demo 2021)",
+        "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677091579/songs/Adobe_Post_20210215_2028420.9385641334842136_xadjz3.png",
+        "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. lorem ipsum dolor  "
     }
     ],
     "endCursor": "363",
