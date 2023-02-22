@@ -21,19 +21,19 @@ const AlbumsScreen = () => {
 
 const AppNavigator = () => {
   return <Tab.Navigator>
-    <Tab.Screen
-      name='AudioList'
-      component={AudioList}
+        <Tab.Screen
+      name='Albums'
+      component={AlbumsScreen}
       options={{
         tabBarIcon: ({ color, size }) => (
-          <Entypo
-            name="folder-music"
+          <MaterialCommunityIcons
+            name="playlist-music"
             size={size}
             color={color} />
-        )
+        ),
       }
       } />
-    <Tab.Screen
+          <Tab.Screen
       name='Player'
       component={Player}
       options={{
@@ -46,15 +46,15 @@ const AppNavigator = () => {
       }
       } />
     <Tab.Screen
-      name='Albums'
-      component={AlbumsScreen}
+      name='AudioList'
+      component={AudioList}
       options={{
         tabBarIcon: ({ color, size }) => (
-          <MaterialCommunityIcons
-            name="playlist-music"
+          <Entypo
+            name="folder-music"
             size={size}
             color={color} />
-        ),
+        )
       }
       } />
   </Tab.Navigator>

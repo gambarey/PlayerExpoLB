@@ -27,6 +27,7 @@ export class AudioList extends Component {
 
   handleAudioPress = async audio => {
     await selectAudio(audio, this.context);
+    this.props.navigation.navigate("Player");
   }
 
   componentDidMount() {
@@ -49,16 +50,6 @@ export class AudioList extends Component {
     );
   }
 
-  navigateToPlayList = () => {
-    this.context.updateState(this.context, {
-      addToPlayList: this.currentItem
-    });
-    this.props.navigation.navigate('PlayList');
-    console.log(this.context)
-  };
-
-  
-
   render() {
     return (
       <AudioContext.Consumer>
@@ -71,25 +62,12 @@ export class AudioList extends Component {
               <RecyclerListView
               // get albumId from props and filter dataProvider
                 // dataProvider={dataProvider}
-                 dataProvider={dataProvider.cloneWithRows(dataProvider._data.filter(item => item.albumId === (this.props.route.params.albumId ? this.props.route.params.albumId : "1")))} 
+                // console.log this.props.route.params.albumId            
+                 dataProvider={dataProvider.cloneWithRows(dataProvider._data.filter(item => item.albumId === (this.props.route.params.albumId === undefined ? "1" : this.props.route.params.albumId)))} 
                 layoutProvider={this.layoutProvider}
                 rowRenderer={this.rowRenderer}
                 extendedState={{ isPlaying }}
               />
-              <OptionModal
-                // onPlayPress={() => {
-                //   console.log("Play Pressed");
-                // }}
-                // onPlaylistPress={() => {
-                //   this.context.updateState(this.context, {
-                //     addToPlayList: this.currentItem
-                //   });
-                //   this.props.navigation.navigate('PlayList');
-                // }}
-                options={[{ title: "Add to Playlist", onPress:this.currentItem.forEach( item =>
-                  item.navigateToPlayList) }]}
-                currentItem={this.currentItem}
-                onClose={() => this.setState({ ...this.state, optionModalVisible: false })} visible={this.state.optionModalVisible} />
             </Screen>
           );
         }}
