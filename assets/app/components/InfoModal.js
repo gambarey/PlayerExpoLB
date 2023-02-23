@@ -1,32 +1,35 @@
 import { Modal, StyleSheet, ScrollView, TouchableOpacity, View, Text } from "react-native";
 import color from "../misc/color";
+import React, { useState } from "react";
 const InfoModal = ({
-    visible,
+    isVisible,
     onClose,
     currentItem,
 }) => {
-const [modalVisible, setModalVisible] = useState(false);
+// const [modalVisible, setModalVisible] = useState(false);
 
 return (
-    <Modal visible={modalVisible} animationType="slide">
-        <View style={styles.modalContainer}>
-            <TouchableOpacity style={styles.closeButton} onPress={() => setModalVisible(false)}>
-                <Text>Close</Text>
-            </TouchableOpacity>
-
-            <ScrollView>
-                {/* Your modal content goes here */}
-            </ScrollView>
-        </View>
-    </Modal>
+    <Modal visible={isVisible} animationType="slide" transparent>
+    <View style={styles.modalContainer}>
+      <TouchableOpacity style={styles.closeButton} onPress={onClose}>
+        <Text>Close</Text>
+      </TouchableOpacity>
+      <ScrollView>
+        <Text>
+          <Text>{currentItem.description}</Text>
+        </Text>
+      </ScrollView>
+    </View>
+  </Modal>
 );
 };
 
 const styles = StyleSheet.create({
     modalContainer: {
         flex: 1,
-        backgroundColor: '#fff',
         position: 'absolute',
+        height: '100%',
+        width: '100%',
         bottom: 0,
         left: 0,
         right: 0,

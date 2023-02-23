@@ -38,7 +38,7 @@ const data = {
         "title": "No one understands what we've been given (Demo 2021)",
         "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677091579/songs/Adobe_Post_20210215_2028420.9385641334842136_xadjz3.png",
         "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. lorem ipsum dolor  "
-    }
+    },
     ],
     "endCursor": "363",
     "hasNextPage": false,

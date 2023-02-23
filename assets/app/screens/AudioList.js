@@ -8,6 +8,7 @@ import OptionModal from '../components/OptionModal';
 import { Audio } from 'expo-av';
 import { play, pause, resume, playNext, selectAudio } from '../misc/AudioController';
 import { storeAudioForNextOpening } from '../misc/helper';
+import InfoModal from '../components/InfoModal';
 
 export class AudioList extends Component {
   static contextType = AudioContext;
@@ -15,7 +16,7 @@ export class AudioList extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      optionModalVisible: false,
+      infoModalVisible: false,
     };
     this.currentItem = [];
   }
@@ -44,7 +45,7 @@ export class AudioList extends Component {
         onAudioPress={() => this.handleAudioPress(item)}
         onOptionPress={() => {
           this.currentItem = item;
-          this.setState({ ...this.state, optionModalVisible: true })
+          this.setState({ ...this.state, infoModalVisible: true })
         }}
       />
     );

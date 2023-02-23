@@ -1,5 +1,15 @@
 import React, { useContext, useEffect, useState } from 'react';
-import { View, Text, StyleSheet, Dimensions, Image, Modal, TouchableOpacity, ScrollView } from 'react-native';
+import {
+  View,
+  Text,
+  StyleSheet,
+  Dimensions,
+  Image,
+  Modal,
+  TouchableOpacity,
+  ScrollView,
+  TouchableWithoutFeedback
+} from 'react-native';
 import color from '../misc/color';
 import Slider from '@react-native-community/slider';
 import PlayerButton from '../components/PlayerButton';
@@ -61,6 +71,10 @@ const Player = () => {
 
   const openModal = () => {
     setModalVisible(true);
+  };
+
+  const closeModal = () => {
+    setModalVisible(false);
   };
 
   console.log(context.currentAudio);
@@ -151,7 +165,7 @@ const Player = () => {
           </View>
         </View>
       </View>
-      <Modal visible={modalVisible} animationType="slide">
+      <Modal visible={modalVisible} animationType="slide" transparent>
         <View style={styles.modalContainer}>
           <TouchableOpacity style={styles.closeButton} onPress={() => setModalVisible(false)}>
             <Text>Close</Text>
@@ -162,6 +176,9 @@ const Player = () => {
             </Text>
           </ScrollView>
         </View>
+        <TouchableWithoutFeedback onPress={closeModal}>
+          <View style={styles.modalBg} />
+        </TouchableWithoutFeedback>
       </Modal>
 
     </Screen>
@@ -203,7 +220,7 @@ const styles = StyleSheet.create({
     marginVertical: 20,
   },
   modalContainer: {
-  position: 'absolute',
+    position: 'absolute',
     bottom: 0,
     alignItems: 'center',
     width: width - 15,
@@ -213,6 +230,7 @@ const styles = StyleSheet.create({
     borderTopRightRadius: 30,
     zIndex: 100,
     padding: 10,
+    margin: "2%",
   },
   closeButton: {
     // alignSelf: 'flex-end',
@@ -221,6 +239,14 @@ const styles = StyleSheet.create({
     backgroundColor: '#ddd',
     borderRadius: 10,
   },
+  modalBg: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
+    backgroundColor: color.MODAL_BG
+}
 });
 
 //make this component available to the app
