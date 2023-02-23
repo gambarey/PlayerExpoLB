@@ -68,6 +68,7 @@ const Player = () => {
   }
 
   const [modalVisible, setModalVisible] = useState(false);
+  let song = context.currentAudio;
 
   const openModal = () => {
     setModalVisible(true);
@@ -77,7 +78,7 @@ const Player = () => {
     setModalVisible(false);
   };
 
-  console.log(context.currentAudio);
+  // console.log(context.currentAudio);
 
   return (
     <Screen>
@@ -97,8 +98,8 @@ const Player = () => {
         </View> */}
         <View style={styles.midBannerContainer}>
           <Image
-            source={{ uri: context.currentAudio.artwork }}
-            style={{ width: 300, height: 300 }}
+            source={{ uri: song.artwork }}
+            style={{ width: 350, height: 350 }}
           />
           {/* <MaterialCommunityIcons
             name="music-circle"
@@ -115,7 +116,7 @@ const Player = () => {
         <View style={styles.audioPlayerContainer}>
           <Text numberOfLines={1}
             style={styles.audioTitle} >
-            {context.currentAudio.filename}
+            {song.filename}
           </Text>
           <View
             style={{
@@ -125,7 +126,7 @@ const Player = () => {
             }}
           >
             <Text>{currentPosition ? currentPosition : renderCurrentTime()}</Text>
-            <Text>{convertTime(context.currentAudio.duration)}</Text>
+            <Text>{convertTime(song.duration)}</Text>
           </View>
           <Slider
             style={{ width: width, height: 40 }}
@@ -136,7 +137,7 @@ const Player = () => {
             maximumTrackTintColor={color.ACTIVE_BG}
             onValueChange={value => {
               setCurrentPosition(
-                convertTime(value * context.currentAudio.duration));
+                convertTime(value * song.duration));
             }}
             onSlidingStart={async () => {
               if (!context.isPlaying)
@@ -172,7 +173,7 @@ const Player = () => {
           </TouchableOpacity>
           <ScrollView>
             <Text>
-              {context.currentAudio.description}
+              {song.description}
             </Text>
           </ScrollView>
         </View>

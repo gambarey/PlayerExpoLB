@@ -1,6 +1,6 @@
 const data = {
     "assets": [{
-        "albumId": "99",
+        "albumId": "98",
         "creationTime": 0,
         "duration": 60 * 3 + 35,
         "filename": "Ember",
@@ -10,7 +10,7 @@ const data = {
         "modificationTime": 1382378612000,
         "uri": "https://res.cloudinary.com/daaaaanx5/video/upload/v1676647306/songs/ember_2021_stems_bounce_1_slwdxi.wav",
         "width": 0,
-        "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1676664567/songs/proba_5_hukbgo.jpg",
+        "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/ adobe",
         "description": "Ember song description",
     },
     {
@@ -27,7 +27,7 @@ const data = {
         "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1676664567/songs/proba_4_g5tvtu.jpg",
         "description": "Canon song description",
     },
-        {
+    {
         "albumId": "97",
         "creationTime": 0,
         "duration": 60 * 3 + 36,
@@ -40,8 +40,8 @@ const data = {
         "width": 0,
         "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677171958/songs/coal_crows_ltvkdk.jpg",
         "description": "G-Factor song description",
-        },
-        {
+    },
+    {
         "albumId": "97",
         "creationTime": 0,
         "duration": 60 * 3 + 57,
@@ -54,25 +54,30 @@ const data = {
         "width": 0,
         "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677171958/songs/coal_crows_ltvkdk.jpg",
         "description": "Heavenly Body song description",
+    },
+    ],
+    "albums": [
+        {
+            "id": "Jupiter",
+            "title": "Jupiter (London, 2019)",
+            "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1676664567/songs/proba_5_hukbgo.jpg",
+            "description": "Jupiter album description",
+            "songs": "4 songs"
         },
-    {
-        "id": "99",
-        "title": "Jupiter (London, 2019)",
-        "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1676664567/songs/proba_5_hukbgo.jpg",
-        "description": "Jupiter album description",
-    },
-    {
-        "id": "98",
-        "title": "No one understands what we've been given (Demo - Alicante, 2021)",
-        "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677091579/songs/Adobe_Post_20210215_2028420.9385641334842136_xadjz3.png",
-        "description": "no one understands what we've been given album description",
-    },
-    {
-        "id": "97",
-        "title": "Coal Crows - The Rainy Sessions (Indonesia, 2014)",
-        "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677171958/songs/coal_crows_ltvkdk.jpg",
-        "description": "Coal Crows - The Rainy Sessions (Indonesia, 2014) album description",
-    },
+        {
+            "id": "No_one",
+            "title": "No one understands what we've been given (Demo - Alicante, 2021)",
+            "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677091579/songs/Adobe_Post_20210215_2028420.9385641334842136_xadjz3.png",
+            "description": "no one understands what we've been given album description",
+            "songs": "4 songs"
+        },
+        {
+            "id": "Rainy",
+            "title": "Coal Crows - The Rainy Sessions (Indonesia, 2014)",
+            "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677171958/songs/coal_crows_ltvkdk.jpg",
+            "description": "Coal Crows - The Rainy Sessions (Indonesia, 2014) album description",
+            "songs": "2 songs"
+        },
     ],
     "endCursor": "363",
     "hasNextPage": false,
