@@ -65,9 +65,9 @@ const AudioListItem = ({
             </View>
           </View>
         </TouchableWithoutFeedback>
-        <View style={styles.rightContainer}>
+        {/* <View style={styles.rightContainer}>
           <Entypo style={{ padding: 10 }} onPress={onOptionPress} name="dots-three-vertical" size={20} color={color.FONT_MEDIUM} />
-        </View>
+        </View> */}
       </View>
       <View style={styles.separator} />
     </>

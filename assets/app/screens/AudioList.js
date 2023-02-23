@@ -28,8 +28,11 @@ export class AudioList extends Component {
 
   handleAudioPress = async audio => {
     await selectAudio(audio, this.context);
+    // if audio is playing, navigate to player screen
+    if (this.context.isPlaying) {
     this.props.navigation.navigate("Player");
   }
+}
 
   componentDidMount() {
     this.context.loadPreviousAudio();
@@ -40,13 +43,13 @@ export class AudioList extends Component {
       <AudioListItem
         title={item.filename}
         isPlaying={extendedState.isPlaying}
-        activeListItem={this.context.currentAudioIndex === index}
+        activeListItem={extendedState.isPlaying && this.context.currentAudio.id === item.id}
         duration={item.duration}
         onAudioPress={() => this.handleAudioPress(item)}
-        onOptionPress={() => {
-          this.currentItem = item;
-          this.setState({ ...this.state, infoModalVisible: true })
-        }}
+        // onOptionPress={() => {
+        //   this.currentItem = item;
+        //   this.setState({ ...this.state, infoModalVisible: true })
+        // }}
       />
     );
   }

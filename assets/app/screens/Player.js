@@ -124,8 +124,8 @@ const Player = () => {
               paddingHorizontal: 15
             }}
           >
-            <Text>{convertTime(context.currentAudio.duration)}</Text>
             <Text>{currentPosition ? currentPosition : renderCurrentTime()}</Text>
+            <Text>{convertTime(context.currentAudio.duration)}</Text>
           </View>
           <Slider
             style={{ width: width, height: 40 }}
