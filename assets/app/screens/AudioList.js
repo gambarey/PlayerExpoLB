@@ -67,7 +67,7 @@ export class AudioList extends Component {
               // get albumId from props and filter dataProvider
                 // dataProvider={dataProvider}
                 // console.log this.props.route.params.albumId            
-                 dataProvider={dataProvider.cloneWithRows(dataProvider._data.filter(item => item.albumId === (this.props.route.params.albumId === undefined ? "1" : this.props.route.params.albumId)))} 
+                 dataProvider={dataProvider.cloneWithRows(dataProvider._data.filter(item => item.albumId === (this.props.route.params.albumId === undefined ? "Jupiter" : this.props.route.params.albumId)))} 
                 layoutProvider={this.layoutProvider}
                 rowRenderer={this.rowRenderer}
                 extendedState={{ isPlaying }}
