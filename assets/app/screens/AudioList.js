@@ -66,7 +66,9 @@ export class AudioList extends Component {
               <RecyclerListView
                 // get albumId from props and filter dataProvider
                 // dataProvider={dataProvider}         
-                dataProvider={dataProvider}
+                dataProvider={dataProvider.cloneWithRows(dataProvider._data.filter
+                  (item => item.albumId === (this.props.route.params.albumId === undefined ?
+                    "Rainy" : this.props.route.params.albumId)))}
                 layoutProvider={this.layoutProvider}
                 rowRenderer={this.rowRenderer}
                 extendedState={{ isPlaying }}

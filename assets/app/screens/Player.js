@@ -100,7 +100,6 @@ const Player = () => {
             {`${context.currentAudioIndex + 1} / ${context.totalAudioCount}`}
           </Text>
         </View> */}
-        <Text>{context.activePlayList.title}</Text>
         <View style={styles.midBannerContainer}>
           <Image
             source={{ uri: song.artwork }}
@@ -115,12 +114,16 @@ const Player = () => {
           name="info"
           size={34}
           color="black"
-          style={{ marginLeft: "80%" }}
+          style={{ marginLeft: "83%", marginTop: 20 }}
           onPress={openModal}
         />
         <View style={styles.audioPlayerContainer}>
-          <Text numberOfLines={1}
-            style={styles.audioTitle} >
+          <Text numberOfLines={3}
+            style={[styles.audioTitle
+              , {
+                fontSize: song.filename.length > 20 ? 20 : 28
+            }
+            ]} >
             {song.filename}
           </Text>
           <View
@@ -220,7 +223,6 @@ const styles = StyleSheet.create({
     alignItems: 'center'
   },
   audioTitle: {
-    fontSize: 28,
     textAlign: "center",
     textTransform: "capitalize",
     marginVertical: 20,

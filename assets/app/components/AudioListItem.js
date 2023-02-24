@@ -79,7 +79,7 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
     alignSelf: 'center',
-    width: width - 80
+    width: width - 80,
   },
   leftContainer: {
     flexDirection: 'row',
