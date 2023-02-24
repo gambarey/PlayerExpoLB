@@ -175,8 +175,8 @@ export const changeAudio = async (context, select) => {
 
   try {
     const { isLoaded } = await playbackObj.getStatusAsync();
-    const isLastAudio = currentAudioIndex + 1 === totalAudioCount;
-    const isFirstAudio = currentAudioIndex <= 0; ///
+    const isLastAudio = context.currentAudio.lastTrack;
+    const isFirstAudio = context.currentAudio.firstTrack;
     let audio;
     let index;
     let status;
@@ -198,13 +198,13 @@ export const changeAudio = async (context, select) => {
       }
 
       if (isLastAudio) {
-        index = 0;
-        audio = audioFiles[index];
-        if (isLoaded) {
-          status = await playNext(playbackObj, audio.uri);
-        } else {
-          status = await play(playbackObj, audio.uri);
-        }
+        // index = 0;
+        // audio = audioFiles[index];
+        // if (isLoaded) {
+        //   status = await playNext(playbackObj, audio.uri);
+        // } else {
+        //   status = await play(playbackObj, audio.uri);
+        // }
       }
     }
 

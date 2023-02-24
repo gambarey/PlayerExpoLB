@@ -1,6 +1,6 @@
 const data = {
     "assets": [{
-        "albumId": "98",
+        "albumId": "No_one",
         "creationTime": 0,
         "duration": 60 * 3 + 35,
         "filename": "Ember",
@@ -12,9 +12,10 @@ const data = {
         "width": 0,
         "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/ adobe",
         "description": "Ember song description",
+        "firstTrack": true
     },
     {
-        "albumId": "98",
+        "albumId": "No_one",
         "creationTime": 0,
         "duration": 60 * 5 + 49,
         "filename": "Canon",
@@ -26,9 +27,10 @@ const data = {
         "width": 0,
         "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1676664567/songs/proba_4_g5tvtu.jpg",
         "description": "Canon song description",
+        "lastTrack": true
     },
     {
-        "albumId": "97",
+        "albumId": "Rainy",
         "creationTime": 0,
         "duration": 60 * 3 + 36,
         "filename": "G-Factor",
@@ -42,7 +44,7 @@ const data = {
         "description": "G-Factor song description",
     },
     {
-        "albumId": "97",
+        "albumId": "Rainy",
         "creationTime": 0,
         "duration": 60 * 3 + 57,
         "filename": "Heavenly Body",

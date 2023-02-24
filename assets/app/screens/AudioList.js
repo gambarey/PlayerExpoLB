@@ -30,9 +30,9 @@ export class AudioList extends Component {
     await selectAudio(audio, this.context);
     // if audio is playing, navigate to player screen
     if (this.context.isPlaying) {
-    this.props.navigation.navigate("Player");
+      this.props.navigation.navigate("Player");
+    }
   }
-}
 
   componentDidMount() {
     this.context.loadPreviousAudio();
@@ -46,10 +46,10 @@ export class AudioList extends Component {
         activeListItem={extendedState.isPlaying && this.context.currentAudio.id === item.id}
         duration={item.duration}
         onAudioPress={() => this.handleAudioPress(item)}
-        // onOptionPress={() => {
-        //   this.currentItem = item;
-        //   this.setState({ ...this.state, infoModalVisible: true })
-        // }}
+      // onOptionPress={() => {
+      //   this.currentItem = item;
+      //   this.setState({ ...this.state, infoModalVisible: true })
+      // }}
       />
     );
   }
@@ -64,10 +64,9 @@ export class AudioList extends Component {
           return (
             <Screen>
               <RecyclerListView
-              // get albumId from props and filter dataProvider
-                // dataProvider={dataProvider}
-                // console.log this.props.route.params.albumId            
-                 dataProvider={dataProvider.cloneWithRows(dataProvider._data.filter(item => item.albumId === (this.props.route.params.albumId === undefined ? "Jupiter" : this.props.route.params.albumId)))} 
+                // get albumId from props and filter dataProvider
+                // dataProvider={dataProvider}         
+                dataProvider={dataProvider}
                 layoutProvider={this.layoutProvider}
                 rowRenderer={this.rowRenderer}
                 extendedState={{ isPlaying }}

@@ -49,11 +49,15 @@ const Player = () => {
   }
 
   const handleNext = async () => {
-    await changeAudio(context, 'next');
+    if (!context.currentAudio.lastTrack) {
+      await changeAudio(context, 'next');
+    }
   }
 
   const handlePrevious = async () => {
-    await changeAudio(context, "previous");
+    if (!context.currentAudio.firstTrack) {
+      await changeAudio(context, "previous");
+    }
   }
 
   if (!context.currentAudio) {
@@ -96,6 +100,7 @@ const Player = () => {
             {`${context.currentAudioIndex + 1} / ${context.totalAudioCount}`}
           </Text>
         </View> */}
+        <Text>{context.activePlayList.title}</Text>
         <View style={styles.midBannerContainer}>
           <Image
             source={{ uri: song.artwork }}
@@ -247,7 +252,7 @@ const styles = StyleSheet.create({
     right: 0,
     bottom: 0,
     backgroundColor: color.MODAL_BG
-}
+  }
 });
 
 //make this component available to the app
