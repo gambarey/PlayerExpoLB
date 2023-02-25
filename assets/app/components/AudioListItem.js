@@ -11,7 +11,7 @@ const convertTime = minutes => {
     const minute = h.toString().split('.')[0];
     const percent = parseInt(h.toString().split('.')[1].slice(0, 2));
     const seconds = Math.ceil((percent * 60) / 100);
-    console.log(seconds)
+    // console.log(seconds)
 
     if (parseInt(minute) < 10 && seconds < 10) {
       return `0${minute}:0${seconds}`;

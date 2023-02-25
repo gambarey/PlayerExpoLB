@@ -9,27 +9,12 @@ export const storeAudioForNextOpening = async (audio, index, lastPosition) => {
   }
 };
 
-export const convertTime = minutes => {
-  if (minutes) {
-    const h = minutes / 60;
-    const minute = h.toString().split('.')[0];
-    const percent = parseInt(h.toString().split('.')[1].slice(0, 2));
-    const sec = Math.ceil((percent * 60) / 100);
+export const convertTime = seconds => {
+  let min = Math.floor(seconds / 60);
+  let sec = Math.floor(seconds % 60);
+  if (sec < 10) {
+    sec = `0${sec}`;
+  }
+  return `${min}:${sec}`;
 
-    if (parseInt(minute) < 10 && sec < 10) {
-      return `0${minute}:0${sec}`;
-    }
-    if (sec == 60) {
-      return `${minute + 1}:00`;
-    }
-    if (parseInt(minute) < 10) {
-      return `0${minute}:${sec}`;
-    }
-    if (seconds < 10) {
-      return `${minute}:0${sec}`;
-    }
-    else {
-      return `${minute}:${sec}`;
-    }
-  };
 };
