@@ -4,11 +4,14 @@ import { Entypo } from '@expo/vector-icons';
 import color from '../misc/color';
 
 const convertTime = minutes => {
+  // make this work when minutes is bigger than 599
+
   if (minutes) {
     const h = minutes / 60;
     const minute = h.toString().split('.')[0];
     const percent = parseInt(h.toString().split('.')[1].slice(0, 2));
     const seconds = Math.ceil((percent * 60) / 100);
+    console.log(seconds)
 
     if (parseInt(minute) < 10 && seconds < 10) {
       return `0${minute}:0${seconds}`;

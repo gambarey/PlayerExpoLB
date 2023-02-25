@@ -149,6 +149,35 @@ const data = {
             "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677171958/songs/coal_crows_ltvkdk.jpg",
             "description": "Heavenly Body song description",
         },
+        {
+            "albumId": "Grupo",
+            "creationTime": 0,
+            "duration": 60 * 4 + 45,
+            "filename": "La Bossa o la Vida",
+            "height": 0,
+            "id": "10",
+            "mediaType": "audio",
+            "modificationTime": 1382378612000,
+            "uri": "https://res.cloudinary.com/daaaaanx5/video/upload/v1677319588/songs/grupo_de_musica_-_La_bossa_o_la_vida_tnzhmd.mp3",
+            "width": 0,
+            "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677320460/songs/1140476833_f_nartwl.jpg",
+            "description": "La Bossa o la Vida song description - Diego de Francisco (keyboards, main vocals), Yago Bernabé (guitar, backing vocals), Carlos Ribera (bass, backing vocals). Written by Carlos Ribera, home recorded at Madrid. This was one of the first songs I ever wrote, the first chords are basically a rip-off of some bossa fooling around from my bass teacher (who was actually a guitar player, but had very clear concepts about bass), and then I took it from there. The title is a pun in spanish, it literally means 'the bag or the life', which is an old slang for robbers when they assaulted someone on the streets. Bag is 'Bolsa' in spanish, which sounds very similar to 'Bossa', and that's pretty much it basically, no other meaning whatsoever. Later on some lyrics were added on the chorus, 'Like a truebos in the sky' (which is basically some nonsense mock english Diego used to say) and later 'Hecatombe Nuclear', when the song was brough back to live by another project, Gamba Rey, with the addition of a couple of death metal bars and growling after the first chorus, because why not.",
+            "firstTrack": true
+        },
+        {
+            "albumId": "Grupo",
+            "creationTime": 0,
+            "duration": 60 * 10 + 51,
+            "filename": "Los Vientos del Caos",
+            "height": 0,
+            "id": "11",
+            "mediaType": "audio",
+            "modificationTime": 1382378612000,
+            "uri": "https://res.cloudinary.com/daaaaanx5/video/upload/v1677319588/songs/grupo_de_musica_-_Los_vientos_del_caos_quvccr.mp3",
+            "width": 0,
+            "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677320460/songs/1140476833_f_nartwl.jpg",
+            "description": "Los Vientos del Caos song description - Diego de Francisco (keyboards, main vocals), Yago Bernabé (guitar, backing vocals, arrangements), Carlos Ribera (4-string bass, backing vocals). Written by Diego de Francisco (main part) and Carlos Ribera (last bit and lyrics), home recorded at Madrid. Well, how can I put this. What started up being a 90's progressive power metal track influenced by the likes of Angel Dust or Blind Guardian, ended up being a pharaonic 11 minute long epic with many different sections. But hey, it was great fun to play. Some creative bass stuff as well, plenty of power chords and overdrive, wah tappings etc. I used my first bass for this, a 4-string JP-like korean passive Vantage, which sounded great when distorted. The lyrics on the kind of symphonic doom metal intro are actually a latin palyndrome: 'in girum imus nocte et consumimur igni', which translates as something like 'we wander in circles at night and we are consumed by fire'. The rest of the lyrics are based on some of my early poems, really doomy and depressive stuff as well. The title translates as 'Winds of Chaos'.",
+        },
     ],
     "albums": [
         {
@@ -172,6 +201,13 @@ const data = {
             "description": "Coal Crows - The Rainy Sessions (Indonesia, 2014) album description",
             "songs": "2 songs"
         },
+        {
+            "id": "Grupo",
+            "title": "Grupo de Música - Grabación con grabadora (Madrid, 2002)",
+            "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677320460/songs/1140476833_f_nartwl.jpg",
+            "description": "Grupo de Música - Grabación con grabadora (Madrid, 2002) album description - After the split of Blues Juice (instrumental cover band), I decided to go for a more multi-genre approach, just like the one I always had when it comes to songwriting. Stylistic freedom, and extreme crossovers. I usually got bored when playing the same genre all the time. So along with Diego de Francisco (Blues Juice keyboard player) and University colleague Yago Bernabé (Bluesyluz) on guitars we formed a new project. It was called Grupo de Música (spanish for 'Band'), trying to reflect the band's genreless, if that makes sense. We didn't play rock or whatever, we just made music. The band never found a drummer, this is a rehearsal recorded at my place with a cassette recorder (called 'Grabación con grabadora', spanish for 'Tape recorder recording'), so the quality is not great but it sounds surprisingly decent given the circumstances. The band only performed live once with no bassist at a private party and soon all members went their separate ways, but it was a great experience and the first attempt at a creative multi-genre project, which will later take the forms of Haba, Gamba Rey, and finally, Lastbullet. The picture is a view from the garage where the band rehearsed on a rainy day.",
+            "songs": "2 songs"
+        }
     ],
     "endCursor": "363",
     "hasNextPage": false,

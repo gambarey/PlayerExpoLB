@@ -1,7 +1,13 @@
 import { storeAudioForNextOpening } from "./helper";
+import { Audio } from "expo-av";
+import { useEffect } from "react";
+
+
 
 // play audio
 export const play = async (playbackObj, uri, lastPosition) => {
+  // play in the background as well but stop other audio in the app if playing
+
   try {
     if (!lastPosition)
       return await playbackObj.loadAsync(
@@ -59,6 +65,7 @@ export const selectAudio = async (audio, context, playListInfo = {}) => {
     audioFiles,
     onPlaybackStatusUpdate
   } = context;
+  
   try {
     // play audio for the first time
     if (soundObj === null) {

@@ -190,6 +190,8 @@ const media = require("./data.js");
     this.setState({ ...prevState, ...newState })
   }
 
+  
+
   render() {
     const {
       audioFiles,
