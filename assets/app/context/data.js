@@ -119,7 +119,7 @@ const data = {
             "width": 0,
             "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677091579/songs/Adobe_Post_20210215_2028420.9385641334842136_xadjz3.png",
             "description": "Les Llagrimes del Mar (son ones en els teus ulls foscos) song description - Credits: Samy Doreau (drums), Carlos Ribera (7-string bass, recording, mixing, programming). Home recorded in St. Albans and London, UK.",
-            lastTrack: true
+            "lastTrack": true
         },
         {
             "albumId": "Rainy",
@@ -134,6 +134,7 @@ const data = {
             "width": 0,
             "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677171958/songs/coal_crows_ltvkdk.jpg",
             "description": "G-Factor song description",
+            "firstTrack": true
         },
         {
             "albumId": "Rainy",
@@ -148,6 +149,7 @@ const data = {
             "width": 0,
             "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677171958/songs/coal_crows_ltvkdk.jpg",
             "description": "Heavenly Body song description",
+            "lastTrack": true
         },
         {
             "albumId": "Grupo",
@@ -232,7 +234,7 @@ const data = {
             "uri": "https://res.cloudinary.com/daaaaanx5/video/upload/v1677336175/songs/grupo_de_musica_-_funky_Untitled_litmvq.mp3",
             "width": 0,
             "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677320460/songs/1140476833_f_nartwl.jpg",
-            "description": "Funky (Untitled) song description - Carlos Ribera (4-string bass), Yago Bernabé (guitar), Diego de Francisco (keyboards). Music by Carlos Ribera, home recorded in Madrid. Another instrumental, probably influenced by the house music I was listening to at the time. This one would be rescued a few years later by Haba and Gamba Rey as well.",
+            "description": "Funky (Untitled) song description - Carlos Ribera (4-string bass), Yago Bernabé (guitar), Diego de Francisco (keyboards). Music by Carlos Ribera, home recorded in Madrid. Another instrumental, probably influenced by the house music I was listening to at the time. This one would be unearthed a few years later by Haba and Gamba Rey as well.",
         },
         {
             "albumId": "Grupo",
@@ -278,15 +280,16 @@ const data = {
             "id": "No_one",
             "title": "No one understands what we've been given (Demo - Alicante, 2021)",
             "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677091579/songs/Adobe_Post_20210215_2028420.9385641334842136_xadjz3.png",
-            "description": "Credits: \n\n - Carlos Ribera (7-string bass, recording, mixing, mastering, programming) \n - Andrés Campuzano (virtual instruments). \n\n Home recorded in Alicante, Spain. All songs by Carlos Ribera. \n\n This is a demo I recorded during the pandemic, after getting fired from my job I found myself with some time to go back to the project and rescue some recordings Samy sent a while ago. Problem? The click was there as well... so since I couldn't go to London to re-record them I had to get creative and find a way to remove it, which kind of did the job, but you can still hear it at some points. \n\n The title is a quote from Nevermore's song 'Enemies of Reality' by the late Warrel Dane, an artist who I have always admired and had passed away not long ago. To me it relates to giftedness and the misunderstanding that many times comes with it, not sure if that's what he meant but probably something close. In any case it's a pretty cool quote. \n\n All of the songs are re-recordings of oldies, trying to make the most of the 7-stringer, despite the songs being written for 4-string bass (llágrimes, not a problem), guitar (ember, canon) and pure midi programming (lighthouse) by replacing all guitars and most topline midi parts with e-bow bass", 
-            "songs": "4 tracks"
+            "description": "Credits: \n\n - Carlos Ribera (7-string bass, recording, mixing, mastering, programming) \n - Andrés Campuzano (virtual instruments). \n\n Home recorded in Alicante, Spain. All songs by Carlos Ribera. \n\n This is a demo I recorded during the pandemic, after getting fired from my job I found myself with some time to go back to the project and salvage some recordings Samy sent a while ago. Problem? The click was there as well... so since I couldn't go to London to re-record them I had to get creative and find a way to remove it, which kind of did the job, but you can still hear it at some points. \n\n The title is a quote from Nevermore's song 'Enemies of Reality' by the late Warrel Dane, an artist who I have always admired and had passed away not long ago. To me it relates to giftedness and the misunderstanding that many times comes with it, not sure if that's what he meant but probably something close. In any case it's a pretty cool quote. \n\n All of the songs are re-recordings of oldies, trying to make the most of the 7-stringer, despite the songs being written for 4-string bass (llágrimes, not a problem), guitar (ember, canon) and pure midi programming (lighthouse) by replacing all guitars and most topline midi parts with e-bow bass", 
+            "songs": "4 tracks",
         },
         {
             "id": "Rainy",
             "title": "Coal Crows - The Rainy Sessions (Indonesia, 2014)",
             "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677171958/songs/coal_crows_ltvkdk.jpg",
-            "description": "Credits: \n\n - Rizki Djalink (vocals, guitars, recording, editing, mixing and mastering) - Carlos Ribera (bass, backing vocals) \n\n Home recorded in Bogor, Indonesia. Music and lyrics by Carlos Ribera and Rizki Djalink. \n\n Before I moved to London I started having a look at bands websites to see if I could get an idea of the grassroots rock scene there. Then I found this ad of some guy saying he wants to join a band in London. I had a listen to his tracks and it blew my mind. Very adventurous compositions with a great production as well as vocal and instrumental performances. So I contacted the guy, but he said he was based in Indonesia... so for a while we were co-writing online while I tried to find out if there was a way to bring him to London, but none of those plans ended up working out. So for me it was as simple as paying some 15 quid to get one month tourist visa so I decided to go there for three weeks to record some songs. ",
-            "songs": "2 tracks"
+            "description": "Credits: \n\n - Rizki Djalink (vocals, guitars, recording, editing, mixing and mastering) - Carlos Ribera (bass, backing vocals) \n\n Home recorded in Bogor, Indonesia. Music and lyrics by Carlos Ribera and Rizki Djalink. \n\n Before I moved to London I started having a look at bands websites to see if I could get an idea of the grassroots rock scene there. Then I found this ad of some guy saying he wants to join a band in London. I had a listen to his tracks and it blew my mind. Very adventurous compositions with a great production as well as vocal and instrumental performances. So I contacted the guy, but he said he was based in Indonesia... so for a while we were co-writing online while I tried to find out if there was a way to bring him to London, but none of those plans ended up working out. So for me it was as simple as paying some 15 quid to get one month tourist visa so I decided to go there for three weeks to record some songs. The result was a 5-song EP under the name of 'The Rainy Sessions' (since it was the rainy season in there). The other three tracks were written by Djalink and used for some future purposes so they were all taken offline, but you can listen to one of them for example here https://www.youtube.com/watch?v=xIMu5dwUi1o . \n\n So after buying some gear for Djalink's home studio and some setup, we recorded for around 10 nights (which worked quite ok for my jet lag) and later on Djalink did the mix and master, which was sent to industry proffesionals with positive feedback, but no solid proposition. As time passed we started working on other projects, Djalink becoming a successful producer for other Indonesian bands.",
+            "songs": "2 tracks",
+            "photo1": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677513711/songs/coal_crows_studio_ockth2.jpg"
         },
         {
             "id": "Grupo",
