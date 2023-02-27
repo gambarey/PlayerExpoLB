@@ -25,7 +25,8 @@ const { width, height } = Dimensions.get('window');
 const Player = () => {
   const [currentPosition, setCurrentPosition] = useState(0);
   const context = useContext(AudioContext);
-  const { playbackPosition, playbackDuration, currentAudio } = context;
+  let song = context.currentAudio;
+  const { playbackPosition, playbackDuration, currentAudio, playbackObj } = context;
 
   const calculateSeekBar = () => {
     if (playbackPosition !== null && playbackDuration !== null) {
@@ -71,23 +72,35 @@ const Player = () => {
     return convertTime(context.playbackPosition / 1000);
   }
 
-  const [modalVisible, setModalVisible] = useState(false);
-  let song = context.currentAudio;
+  if ((renderCurrentTime() >= convertTime(song.duration)) && !context.currentAudio.lastTrack) {
+    handleNext(playbackObj, currentAudio);
+}
 
-  const openModal = () => {
-    setModalVisible(true);
-  };
+const [modalVisible, setModalVisible] = useState(false);
 
-  const closeModal = () => {
-    setModalVisible(false);
-  };
 
-  // console.log(context.currentAudio);
+const openModal = () => {
+  setModalVisible(true);
+};
 
-  return (
-    <Screen>
-      <View style={styles.container}>
-        {/* <View style={styles.audioCountContainer}>
+const closeModal = () => {
+  setModalVisible(false);
+};
+
+// console.log(context.currentAudio);
+
+// if (renderCurrentTime() >= convertTime(song.duration)) {
+//     playNext(playbackObj, currentAudio);
+//   }
+
+
+
+
+
+return (
+  <Screen>
+    <View style={styles.container}>
+      {/* <View style={styles.audioCountContainer}>
           <View style={{ flexDirection: "row" }}>
             {context.isPlayListRunning && (
               <>
@@ -100,98 +113,101 @@ const Player = () => {
             {`${context.currentAudioIndex + 1} / ${context.totalAudioCount}`}
           </Text>
         </View> */}
-        <View style={styles.midBannerContainer}>
-          <Image
-            source={{ uri: song.artwork }}
-            style={{ width: 350, height: 350 }}
-          />
-          {/* <MaterialCommunityIcons
+      <View style={styles.midBannerContainer}>
+        <Image
+          source={{ uri: song.artwork }}
+          style={{ width: 350, height: 350 }}
+        />
+        {/* <MaterialCommunityIcons
             name="music-circle"
             size={300}
             color={context.isPlaying ? color.ACTIVE_BG : color.FONT_LIGHT} /> */}
+      </View>
+      <MaterialIcons
+        name="info"
+        size={34}
+        color="black"
+        style={{ marginLeft: "83%", marginTop: 20 }}
+        onPress={openModal}
+      />
+      <View style={styles.audioPlayerContainer}>
+        <Text numberOfLines={3}
+          style={[styles.audioTitle
+            , {
+            fontSize: song.filename.length > 20 ? 20 : 28
+          }
+          ]} >
+          {song.filename}
+        </Text>
+        <View
+          style={{
+            flexDirection: "row",
+            justifyContent: "space-between",
+            paddingHorizontal: 15
+          }}
+        >
+          <Text>{currentPosition ? currentPosition : renderCurrentTime()}</Text>
+          <Text>{convertTime(song.duration)}</Text>
+
+
+          {/* {renderCurrentTime() >= song.duration && (handleNext)} */}
         </View>
-        <MaterialIcons
-          name="info"
-          size={34}
-          color="black"
-          style={{ marginLeft: "83%", marginTop: 20 }}
-          onPress={openModal}
-        />
-        <View style={styles.audioPlayerContainer}>
-          <Text numberOfLines={3}
-            style={[styles.audioTitle
-              , {
-                fontSize: song.filename.length > 20 ? 20 : 28
+        <Slider
+          style={{ width: width, height: 40 }}
+          minimumValue={0}
+          maximumValue={1}
+          value={calculateSeekBar()}
+          minimumTrackTintColor={color.FONT_MEDIUM}
+          maximumTrackTintColor={color.ACTIVE_BG}
+          onValueChange={value => {
+            setCurrentPosition(
+              convertTime(value * song.duration));
+          }}
+          onSlidingStart={async () => {
+            if (!context.isPlaying)
+              return;
+            try {
+              await pause(context.playbackObj);
+            } catch (error) {
+              console.log("error inside onSlidingStart callback", error.message)
             }
-            ]} >
-            {song.filename}
-          </Text>
-          <View
-            style={{
-              flexDirection: "row",
-              justifyContent: "space-between",
-              paddingHorizontal: 15
-            }}
-          >
-            <Text>{currentPosition ? currentPosition : renderCurrentTime()}</Text>
-            <Text>{convertTime(song.duration)}</Text>
-          </View>
-          <Slider
-            style={{ width: width, height: 40 }}
-            minimumValue={0}
-            maximumValue={1}
-            value={calculateSeekBar()}
-            minimumTrackTintColor={color.FONT_MEDIUM}
-            maximumTrackTintColor={color.ACTIVE_BG}
-            onValueChange={value => {
-              setCurrentPosition(
-                convertTime(value * song.duration));
-            }}
-            onSlidingStart={async () => {
-              if (!context.isPlaying)
-                return;
-              try {
-                await pause(context.playbackObj);
-              } catch (error) {
-                console.log("error inside onSlidingStart callback", error.message)
-              }
-            }}
-            onSlidingComplete={async value => {
-              await moveAudio(context, value);
-              setCurrentPosition(0);
-            }}
-          />
-          <View style={styles.audioControllers}>
-            <PlayerButton
-              onPress={handlePrevious}
-              iconType="backward" />
-            <PlayerButton
-              onPress={handlePlayPause}
-              iconType={context.isPlaying ? "pause" : "play"} />
-            <PlayerButton
-              onPress={handleNext}
-              iconType="forward" />
-          </View>
+          }}
+          onSlidingComplete={async value => {
+            await moveAudio(context, value);
+            setCurrentPosition(0);
+          }}
+        />
+        <View style={styles.audioControllers}>
+          <PlayerButton
+            onPress={handlePrevious}
+            iconType="backward" />
+          <PlayerButton
+            onPress={handlePlayPause}
+            iconType={context.isPlaying ? "pause" : "play"} />
+          <PlayerButton
+            onPress={handleNext}
+            iconType="forward" />
         </View>
       </View>
-      <Modal visible={modalVisible} animationType="slide" transparent>
-        <View style={styles.modalContainer}>
-          <TouchableOpacity style={styles.closeButton} onPress={() => setModalVisible(false)}>
-            <Text>Close</Text>
-          </TouchableOpacity>
-          <ScrollView>
-            <Text>
-              {song.description}
-            </Text>
-          </ScrollView>
-        </View>
-        <TouchableWithoutFeedback onPress={closeModal}>
-          <View style={styles.modalBg} />
-        </TouchableWithoutFeedback>
-      </Modal>
+    </View>
+    <Modal visible={modalVisible} animationType="slide" transparent>
+      <View style={styles.modalContainer}>
+        <TouchableOpacity style={styles.closeButton} onPress={() => setModalVisible(false)}>
+          <Text>Close</Text>
+        </TouchableOpacity>
+        <ScrollView>
+          <Text>
+            {song.description}
+          </Text>
+        </ScrollView>
+      </View>
+      <TouchableWithoutFeedback onPress={closeModal}>
+        <View style={styles.modalBg} />
+      </TouchableWithoutFeedback>
+    </Modal>
 
-    </Screen>
-  );
+  </Screen>
+);
 };
 
 // define your styles

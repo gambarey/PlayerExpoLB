@@ -205,6 +205,9 @@ export const changeAudio = async (context, select) => {
       }
 
       if (isLastAudio) {
+        // redirect to albums page
+        navigation.navigate("Albums");
+
         // index = 0;
         // audio = audioFiles[index];
         // if (isLoaded) {
