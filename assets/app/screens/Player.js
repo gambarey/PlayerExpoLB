@@ -120,6 +120,7 @@ const Player = ({ navigation }) => {
           <Image
             source={{ uri: song.artwork }}
             style={{ width: 350, height: 350 }}
+            resizeMode="contain"
           />
           {/* <MaterialCommunityIcons
             name="music-circle"
