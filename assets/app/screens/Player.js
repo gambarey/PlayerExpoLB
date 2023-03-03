@@ -18,7 +18,7 @@ import { play, pause, resume, playNext, selectAudio, changeAudio, moveAudio } fr
 import { convertTime, storeAudioForNextOpening } from '../misc/helper';
 import Screen from '../components/Screen';
 import { MaterialIcons } from '@expo/vector-icons';
-import InfoModal from '../components/InfoModal';
+import YoutubePlayer from 'react-native-youtube-iframe';
 
 const { width, height } = Dimensions.get('window');
 
@@ -196,13 +196,39 @@ const Player = ({ navigation }) => {
       <Modal visible={modalVisible} animationType="slide" transparent>
         <View style={styles.modalContainer}>
           <TouchableOpacity style={styles.closeButton} onPress={() => setModalVisible(false)}>
-            <Text>Close</Text>
+          <MaterialIcons name="close" size={28} color="black" />
           </TouchableOpacity>
           <ScrollView>
-            <Text>
-              {song.description}
-            </Text>
-          </ScrollView>
+              {song.photo1 &&
+                <Image style={styles.descriptionImage} source={{ uri: song.photo1 }} />
+              }
+              <Text style={styles.creditsText}>
+                {song.credits}
+              </Text>
+              <Text style={styles.descriptionText}>
+                {song.description1}
+              </Text>
+              {song.photo2 &&
+                <Image style={styles.descriptionImage} source={{ uri: song.photo2 }} />
+              }
+              <Text style={styles.descriptionText}>
+                {song.description2}
+              </Text>
+              {song.video1 &&
+                <YoutubePlayer
+                  height={200}
+                  play={false}
+                  videoId={song.video1}
+                  webViewStyle={{opacity: 0.99}}
+                />
+              }
+              <Text style={styles.descriptionText}>
+                {song.description3}
+              </Text>
+              {song.photo3 &&
+                <Image style={styles.descriptionImage} source={{ uri: song.photo3 }} />
+              }
+            </ScrollView>
         </View>
         <TouchableWithoutFeedback onPress={closeModal}>
           <View style={styles.modalBg} />
@@ -251,7 +277,7 @@ const styles = StyleSheet.create({
     bottom: 0,
     alignItems: 'center',
     width: width - 15,
-    height: height - 350,
+    height: height - 250,
     backgroundColor: 'gray',
     borderTopLeftRadius: 30,
     borderTopRightRadius: 30,
@@ -260,11 +286,9 @@ const styles = StyleSheet.create({
     margin: "2%",
   },
   closeButton: {
-    // alignSelf: 'flex-end',
-    margin: 10,
+    alignSelf: 'flex-end',
+    margin: 5,
     padding: 5,
-    backgroundColor: '#ddd',
-    borderRadius: 10,
   },
   modalBg: {
     position: 'absolute',
@@ -273,7 +297,22 @@ const styles = StyleSheet.create({
     right: 0,
     bottom: 0,
     backgroundColor: color.MODAL_BG
-  }
+  },
+  descriptionImage: {
+    width: "100%",
+    height: 300,
+    alignSelf: 'center',
+    margin: 10,
+  },
+  creditsText: {
+    fontSize: 13,
+    margin: 15,
+    fontWeight: 'bold',
+  },
+  descriptionText: {
+    fontSize: 16,
+    margin: 20,
+  },
 });
 
 //make this component available to the app

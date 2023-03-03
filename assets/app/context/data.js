@@ -12,7 +12,11 @@ const data = {
             "uri": "https://res.cloudinary.com/daaaaanx5/video/upload/v1677268067/songs/Last_Bullet_-_This_could_be_happiness_MASTER_bfkjgn.mp3",
             "width": 0,
             "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1676664567/songs/proba_5_hukbgo.jpg",
-            "description": "This Could be Happiness song description - Credits: Samy Doreau (drums), Carlos Ribera (7-string bass, recording, editing), Antonio Parejo (mixing and mastering). Home recorded in St. Albans and London, UK.",
+            "credits": "Credits: \n\n - Samy Doreau (drums) \n Carlos Ribera (7-string bass, recording, editing) \n - Antonio Parejo (mixing and mastering) \n\n Music by Carlos Ribera. Home recorded in St. Albans and London, UK.",
+            "description1": "This was one of the first riffs I came up with when I started fooling around with my first 7-stringer, a cheap second hand HK which sounded quite ok, apart from a quite terrible ground noise.",
+            "description2": "Then from that initial idea it all developed in a very natural way, I love it when that happens. It is an unusually upbeat song, same era as the next track, 'Laura'.",
+            "photo2": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677602392/songs/13335901_219746065085129_6726230678537973986_n_ismucz.jpg",
+            "photo1": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677527294/songs/lastbullet_yiptag.jpg",
             "firstTrack": true
         }
         ,
@@ -28,7 +32,10 @@ const data = {
             "uri": "https://res.cloudinary.com/daaaaanx5/video/upload/v1677268067/songs/Last_Bullet_-_Laura_MASTER_tbxzsb.mp3",
             "width": 0,
             "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1676664567/songs/proba_5_hukbgo.jpg",
-            "description": "Laura song description - Credits: Carlos Ribera (7-string bass, programming, recording, editing), Antonio Parejo (mixing and mastering). Home recorded in St. Albans and London, UK.",
+            "credits": "Credits: \n\n - Carlos Ribera (7-string bass, recording, editing) \n - Antonio Parejo (mixing and mastering) \n\n Music by Carlos Ribera. Home recorded in St. Albans and London, UK.",
+            "description1": "Another of the first ideas on the 7-string, inspired by a girl with the same name, obviously. It finally didn't work out, but I still thought the song represented her quite well to me. But that final 'failure' triggered my kind of war on dopamine",
+            "photo1": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677661337/songs/20151003_112806_yz9fj9.jpg",
+            "video1": "Sk398T2lDRU"
         }
         ,
         {
@@ -43,7 +50,11 @@ const data = {
             "uri": "https://res.cloudinary.com/daaaaanx5/video/upload/v1677268067/songs/Last_Bullet_-_Set_the_moon_on_fire_MASTER_u7udu0.mp3",
             "width": 0,
             "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1676664567/songs/proba_5_hukbgo.jpg",
-            "description": "Set the Moon on Fire song description - Credits: Carlos Ribera (7-string bass, programming, recording, editing), Antonio Parejo (claps, cajon, mixing and mastering). Home recorded in St. Albans and London, UK.",
+            "credits": "Credits: \n\n - Samy Doreau (drums) \n - Carlos Ribera (7-string bass, programming, recording, editing) \n - Antonio Parejo (claps, cajon, mixing and mastering) \n\n Music by Carlos Ribera. Home recorded in St. Albans and London, UK.",
+            "description1": "An old flamenco-metal attempt which kind of fit the two-piece line-up quite well. Most of the cajon and clapping parts finally didn't make it to the final mix, but you can find them on the demos and the rehearsal video below. Some clear Sepultura influences I guess, also perhaps a spanish 2000 band called 'Night to Die', which mixed flamenco and metal as well, in a very different way though.",
+            "description3": "The title was my take on a Megadeth one, but can also be linked to the gas nature of Jupiter, which is a sort of small sun that has not ignited",
+            "photo1": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677527353/songs/11025647_854167967977879_4260958628395316498_n_tv2xdm.jpg",
+            "video1": "5dRAhFkc0W0"
         }
         ,
         {
@@ -58,7 +69,12 @@ const data = {
             "uri": "https://res.cloudinary.com/daaaaanx5/video/upload/v1677268068/songs/Lastbullet_-_Jupiter_rlxdya.mp3",
             "width": 0,
             "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1676664567/songs/proba_5_hukbgo.jpg",
-            "description": "Jupiter song description - Credits: Pedro Zapata (vocals), Hugo Terva (drums), Luis Pinedo (solo guitars), Carlos Ribera (rythm guitars, bass), Ryan Webb (solo guitars, recording, mixing and mastering). Recorded in London, UK.",
+            "credits": "Credits: \n\n- Pedro Zapata (vocals) \n- Hugo Terva (drums) \n- Luis Pinedo (solo guitars) \n- Carlos Ribera (rythm guitars, bass) \n- Ryan Webb (solo guitars, recording, mixing) \n- Daniel Cardoso (Anathema, Cardhouse) mastering. \n\n Music and Lyrics by Carlos Ribera. Recorded in London, UK.",
+            "description1": "So the story about Jupiter is already described on the album info, basically this girl I fell in love with went back to her hometown after finishing her degree, and all of a sudden I felt quite miserable and this tune came to my head. This was perhaps the third time the song was recorded. By that time I used to do some live session work as a bassist for Ryan Webb (extremely talented artist, check him out), and since he had a good home studio in Uxbridge and I asked him to trade gigs for studio time. Then Daniel Cardoso (from one of my favourite bands, Anathema) was responsible for the mastering.",
+            "description2": "This is the only track to feature a different drummer (Hugo Terva), since it was recorded before Samy started collaborating with the project. Everyone did a great job, including the superb vocals from Pedro Zapata (another super talented musician, you can check his work with the band 'Vintage'). A music video was also made for this song, by spanish video artist Laura del Muro.",
+            "photo1": "https://res.cloudinary.com/daaaaanx5/image/upload/v1676664567/songs/proba_4_g5tvtu.jpg",
+            "photo2": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677663243/songs/16422552_371192813273786_447687585007728579_o_iodzvv.jpg",
+            "video1": "fhkLhQRKqn8",
             "lastTrack": true
         }
         ,
@@ -74,8 +90,12 @@ const data = {
             "uri": "https://res.cloudinary.com/daaaaanx5/video/upload/v1676647303/songs/lighthouse_2021_bounce_1_kbzsll.wav",
             "width": 0,
             "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677091579/songs/Adobe_Post_20210215_2028420.9385641334842136_xadjz3.png",
-            "description": "The Lighthouse song description - Credits: Samy Doreau (drums), Carlos Ribera (7-string bass, recording, mixing, programming). Home recorded in St. Albans and London, UK.",
-            "firstTrack": true
+            "credits": "Credits: \n\n - Samy Doreau (drums) \n - Carlos Ribera (7-string bass, programming, recording, editing, mixing, mastering) \n \n\n Music by Carlos Ribera. Home recorded in St. Albans (UK) and Alicante, Spain.",
+            "description1": "Not much to say about this song, to be honest. It belongs to an era where I was trying to move from solo bass compositions to full-band with topline ones. I started writing songs directly on my computer for the first time, which is nice because you get a different feel, but sometimes you come up with stuff which is just unplayable live.",
+            "description2": "About the name, no specific reason that I'm aware of again, it just had a feeling of burning, turning and turning to me. It's been never performed live, but for rehearsing it needs some backing tracks and a click, obviusly. ",
+            "photo1": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677597416/songs/IMG_20160618_121556_vpwsdp.jpg",
+            "photo2": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677664314/songs/12107227_949394255099954_8307551046721633713_n_cyawsb.jpg",
+            "video1": "BudILz50Hvo"
         }
         ,
         {
@@ -90,7 +110,10 @@ const data = {
             "uri": "https://res.cloudinary.com/daaaaanx5/video/upload/v1676647306/songs/ember_2021_stems_bounce_1_slwdxi.wav",
             "width": 0,
             "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677091579/songs/Adobe_Post_20210215_2028420.9385641334842136_xadjz3.png",
-            "description": "Ember song description - Credits: Samy Doreau (drums), Carlos Ribera (7-string bass, recording, mixing, programming). Home recorded in St. Albans and London, UK.",
+            "credits": "Credits: \n\n - Samy Doreau (drums) \n - Carlos Ribera (7-string bass, recording, mixing, programming) \n \n\n Music by Carlos Ribera. Home recorded in St. Albans (UK) and Alicante, Spain.",
+            "description1": "I originally wrote this song on guitar, it's a bit of a waltz in 6/8. The final part was later developed into its own full song for a demo. A vocal version demo was also recorded with Verona 9",
+            "description2": "If I remember correctly it was written in autumn, so both the title and the music point to that feeling of the season changing, rain and cold starts coming etc, which I got from visiting a friend in northern Spain, my first band's singer. ",
+            "photo1": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677666222/songs/castillo_ponferrada9_xajt4p.jpg"
         },
         {
             "albumId": "No_one",
@@ -104,7 +127,11 @@ const data = {
             "uri": "https://res.cloudinary.com/daaaaanx5/video/upload/v1676647311/songs/canon_2021_bounce_1_wchn5d.wav",
             "width": 0,
             "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677091579/songs/Adobe_Post_20210215_2028420.9385641334842136_xadjz3.png",
-            "description": "Canon song description - Carlos Ribera (7-string bass, recording, mixing, programming). Home recorded in London, UK.",
+            "credits": "Credits: \n\n - Carlos Ribera (7-string bass, recording, mixing, programming) \n \n\n Music by Carlos Ribera. Home recorded in Alicante, Spain.",
+            "description1": "Originally written and recorded as another demo on guitar, I wanted to revisit it using just bass. It was really challenging to redo the guitar parts, since the original take was pretty much layers and layers of improvisation, so it took a while to get it tidy",
+            "description2": "The name comes from the structure, which reminds me a bit of a classical canon, with the main theme being repeated in different ways. It was named 'Bellaterra' at some point, in a reference to Catalonia, my parents' home land.",
+            "photo1": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677667439/songs/20150423_185557_ilp3dh.jpg",
+
         },
         {
             "albumId": "No_one",
@@ -118,7 +145,10 @@ const data = {
             "uri": "https://res.cloudinary.com/daaaaanx5/video/upload/v1677266366/songs/llagrimes_2021_DEF_stems_bounce_1_online-audio-converter.com_ktq5ft.mp3",
             "width": 0,
             "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677091579/songs/Adobe_Post_20210215_2028420.9385641334842136_xadjz3.png",
-            "description": "Les Llagrimes del Mar (son ones en els teus ulls foscos) song description - Credits: Samy Doreau (drums), Carlos Ribera (7-string bass, recording, mixing, programming). Home recorded in St. Albans and London, UK.",
+            "credits": "Credits: \n\n - Samy Doreau (drums) \n - Carlos Ribera (7-string bass, recording, mixing, programming) \n \n\n Music by Carlos Ribera. Home recorded in St. Albans (UK) and Alicante, Spain.",
+            "description1": "One of my early compositions revisited again (it was also recorded on Grupo de Música and Verona 9 demos, this one with added lyrics and a chorus part).",
+            "description2": " A post-prog melancholic ballad with an epic ending. The title translates as 'The tears of the sea (are waves in your dark eyes)', which I borrowed from one of my cousin's Francesc poems.",
+            "photo1": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677667991/songs/20230205_192834_jzuxtu.jpg",
             "lastTrack": true
         },
         {
@@ -133,7 +163,12 @@ const data = {
             "uri": "https://res.cloudinary.com/daaaaanx5/video/upload/v1677171462/songs/G-factor_geuwik.wav",
             "width": 0,
             "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677171958/songs/coal_crows_ltvkdk.jpg",
-            "description": "G-Factor song description",
+            "credits": "Credits: \n \n - Djalink (Vocals, Guitars, recording, programming, editing, mix and master) \n - Carlos Ribera (4-string bass, backing vocals) \n\n Music and lyrics by Carlos Ribera. Recorded in Bogor, Indonesia.",
+            "description1": "Another song about dopamine, kind of, but still about its 'bright side', if any. The song is a kind of spin-off from Gamba Rey's song 'Hyde with me', developed from its main riff in an attempt to make it more conventional. The title refers to the general factor of intelligence, which is basically used to measure IQ, etc. That served as some metaphor of the way the heart seems to 'deduct' things sometimes without seeing the whole picture.",
+            "description2": "On a more freaky/technical note, the tempo map for this song is quite mental, there are like 10 or 12 tempo changes, some of then in the middle of a bar or a measure, it was a real challenge to make it sound as natural as possible",
+            "photo1": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677513711/songs/coal_djalink_nh5ebi.jpg",
+            "photo2": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677679535/songs/21022014696_nhjstp.jpg",
+            "photo3": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677680820/songs/20140228_155437_rbplqr.jpg",
             "firstTrack": true
         },
         {
@@ -148,7 +183,12 @@ const data = {
             "uri": "https://res.cloudinary.com/daaaaanx5/video/upload/v1677171466/songs/heavenly_body_no_fade_hrn29e.wav",
             "width": 0,
             "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677171958/songs/coal_crows_ltvkdk.jpg",
-            "description": "Heavenly Body song description",
+            "credits": "Credits: \n \n - Djalink (Vocals, Guitars, recording, programming, editing, mix and master) \n - Carlos Ribera (4-string bass, backing vocals) \n\n Music and lyrics by Carlos Ribera. Recorded in Bogor, Indonesia.",
+            "description1": "This song is also about the same person that 'inspired' (or whatever) 'Jupiter', but written in an earlier, much more hopeful stage.",
+            "description2": "It was also recorded earlier as a demo with a session singer, but never 'released'.",
+            "photo1": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677513711/songs/coal_me_clmnfp.jpg",
+            "photo2": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677679535/songs/22022014697_zyo46g.jpg",
+            "photo3": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677680820/songs/20140228_155428_xnb9un.jpg",
             "lastTrack": true
         },
         {
@@ -163,7 +203,10 @@ const data = {
             "uri": "https://res.cloudinary.com/daaaaanx5/video/upload/v1677319588/songs/grupo_de_musica_-_La_bossa_o_la_vida_tnzhmd.mp3",
             "width": 0,
             "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677320460/songs/1140476833_f_nartwl.jpg",
-            "description": "La Bossa o la Vida song description - Diego de Francisco (keyboards), Yago Bernabé (guitar), Carlos Ribera (4-string bass). Music by Carlos Ribera, home recorded in Madrid. This was one of the first songs I ever wrote, the first chords are basically a rip-off of some bossa fooling around from my bass teacher (who was actually a guitar player, but had very clear concepts about bass), and then I took it from there. The title is a pun in spanish, it literally means 'the bag or the life', which is an old slang for robbers when they assaulted someone on the streets. Bag is 'Bolsa' in spanish, which sounds very similar to 'Bossa', and that's pretty much it basically, no other meaning whatsoever. Later on some lyrics were added on the chorus, 'Like a truebos in the sky' (which is basically some nonsense mock english Diego used to say) and later 'Hecatombe Nuclear', when the song was brough back to live by another project, Gamba Rey, with the addition of a couple of death metal bars and growling after the first chorus, because why not.",
+            "credits": "Credits: \n \n - Diego de Francisco (keyboards) \n - Yago Bernabé (guitar) \n - Carlos Ribera (4-string bass). \n\n Music by Carlos Ribera, home recorded in Madrid.",
+            "description1": "This was one of the first songs I ever wrote, the first chords are basically a rip-off of some bossa fooling around from my bass teacher (who was actually a guitar player, but had very clear concepts about bass), and then I took it from there.",
+            "description2": "The title is a pun in spanish, it literally means 'bag or life', which is an old slang for robbers when they assaulted someone on the streets. Bag is 'Bolsa' in spanish, which sounds very similar to 'Bossa', and that's pretty much it basically, no other meaning whatsoever.",
+            "description3": "Later on some lyrics were added on the chorus, 'Like a truebos in the sky' (which is basically some nonsense mock english Diego used to say) and later 'Hecatombe Nuclear', when the song was brough back to live by another project, Gamba Rey, with the addition of a couple of death metal bars and growling after the first chorus, because why not.",
             "firstTrack": true
         },
         {
@@ -178,7 +221,9 @@ const data = {
             "uri": "https://res.cloudinary.com/daaaaanx5/video/upload/v1677319588/songs/grupo_de_musica_-_Los_vientos_del_caos_quvccr.mp3",
             "width": 0,
             "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677320460/songs/1140476833_f_nartwl.jpg",
-            "description": "Los Vientos del Caos song description - Diego de Francisco (keyboards, main vocals), Yago Bernabé (guitar, backing vocals, arrangements), Carlos Ribera (4-string bass, backing vocals). Written by Diego de Francisco (main part) and Carlos Ribera (last bit and lyrics), home recorded in Madrid. Well, how can I put this. What started up being a 90's progressive power metal track influenced by the likes of Angel Dust or Blind Guardian, ended up being a pharaonic 11 minute long epic with many different sections. But hey, it was great fun to play. Some creative bass stuff as well, plenty of power chords and overdrive, wah tappings etc. I used my first bass for this, a 4-string JP-like korean passive Vantage, which sounded great when distorted. The lyrics on the kind of symphonic doom metal intro are actually a latin palyndrome: 'in girum imus nocte et consumimur igni', which translates as something like 'we wander in circles at night and we are consumed by fire'. So if you play it backwards you will still not understand a thing because it's growls. The rest of the lyrics are based on some of my early poems, really doomy and depressive stuff as well. The title translates as 'Winds of Chaos'.",
+            "credits": "Credits: \n \n - Diego de Francisco (keyboards, main vocals) \n - Yago Bernabé (guitar, backing vocals, arrangements) \n - Carlos Ribera (4-string bass, backing vocals) \n\n Written by Diego de Francisco (main part) and Carlos Ribera (last bit and lyrics), home recorded in Madrid.",
+            "description1": "Well, how can I put this. What started up being a 90's progressive power metal track influenced by the likes of Angel Dust or Blind Guardian, ended up being a gargantuan 11 minute long epic with many different sections. But hey, it was great fun to play. Some creative bass stuff as well, plenty of power chords and overdrive, wah tappings etc. I used my first bass for this, a 4-string JP-like korean passive Vantage, which sounded great when distorted.",
+            "description2": "The lyrics on the kind of symphonic doom metal intro are actually a latin palyndrome: 'in girum imus nocte et consumimur igni', which translates as something like 'we wander in circles at night and we are consumed by fire'. So if you play it backwards you will still not understand a thing because it's growls. The rest of the lyrics are based on some of my early poems, really doomy and depressive stuff as well. The title translates as 'Winds of Chaos'.",
         },
         {
             "albumId": "Grupo",
@@ -192,7 +237,8 @@ const data = {
             "uri": "https://res.cloudinary.com/daaaaanx5/video/upload/v1677333161/songs/grupo_de_musica_-_Samba_Dugadu_m91z6n.mp3",
             "width": 0,
             "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677320460/songs/1140476833_f_nartwl.jpg",
-            "description": "Samba Dugadu song description - Yago Bernabé (guitar, main vocals), Diego de Francisco (keyboards, backing vocals), Carlos Ribera (bass, backing vocals). Music and lyrics by Yago Bernabé, home recorded in Madrid. A bit of a bossa meets flamenco experiment by Yago, with some fake portuguese lyrics.",
+            "credits": "Credits: \n \n - Yago Bernabé (guitar, main vocals) \n - Diego de Francisco (keyboards, backing vocals) \n - Carlos Ribera (4-string bass, backing vocals) \n\n Music and lyrics by Yago Bernabé, home recorded in Madrid.",
+            "description1": "A bit of a bossa-meets-flamenco experiment by Yago, with some fake portuguese lyrics.",
         },
         {
             "albumId": "Grupo",
@@ -206,7 +252,8 @@ const data = {
             "uri": "https://res.cloudinary.com/daaaaanx5/video/upload/v1677334047/songs/grupo_de_musica_-_Lluvias_de_Mayo_toa7gv.mp3",
             "width": 0,
             "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677320460/songs/1140476833_f_nartwl.jpg",
-            "description": "Lluvias de Mayo song description - Yago Bernabé (guitar, main vocals), Diego de Francisco (keyboards, backing vocals), Carlos Ribera (4-string bass, backing vocals). Music and lyrics by Yago Bernabé, home recorded in Madrid (apologies for the tape getting entangled). Another tune from Yago (title: May Rains), this time a nice ballad turned into something like a dixie/swing. The bass is at some points a bit overkill. I was young, I needed money",
+            "credits": "Credits: \n \n - Yago Bernabé (guitar, main vocals) \n - Diego de Francisco (keyboards, backing vocals) \n - Carlos Ribera (4-string bass, backing vocals) \n\n Music and lyrics by Yago Bernabé, home recorded in Madrid (apologies for the tape getting entangled).",
+            "description1": "Another tune from Yago (title: May Showers), this time a nice ballad turned into something like a dixie/swing. The bass is at some points a bit overkill. I was young, I needed money",
         },
         {
             "albumId": "Grupo",
@@ -220,7 +267,8 @@ const data = {
             "uri": "https://res.cloudinary.com/daaaaanx5/video/upload/v1677335215/songs/grupo_de_musica_-_Les_llagrimes_del_mar_son_ones_en_els_teus_ulls_foscos_tlq0jf.mp3",
             "width": 0,
             "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677320460/songs/1140476833_f_nartwl.jpg",
-            "description": "Les llàgrimes del Mar (son ones en els teus ulls foscos) song description - Diego de Francisco (keyboards, main vocals), Carlos Ribera (4-string bass, backing vocals, horrible falsetto), Yago Bernabé (guitar). Music by Carlos Ribera, home recorded in Madrid. Another instrumental contribution of mine, a post-prog melancholic ballad with an epic ending. The title translates as 'The tears of the sea (are waves in your dark eyes)', which I borrowed from one of my cousin's Francesc poems. The song would be re-recorded 20 years later as Lastbullet, in an all-bass not-so-sped-up version",
+            "credits": "Credits \n\n - Diego de Francisco (keyboards, main vocals), Carlos Ribera (4-string bass, backing vocals, horrible falsetto), Yago Bernabé (guitar). \n\n Music by Carlos Ribera, home recorded in Madrid.",
+            "description1": "Another instrumental contribution of mine, a post-prog melancholic ballad with an epic ending. The title translates as 'The tears of the sea (are waves in your dark eyes)', which I borrowed from one of my cousin's Francesc poems. The song would be re-recorded 20 years later as Lastbullet, in an all-bass not-so-sped-up version",
         },
         {
             "albumId": "Grupo",
@@ -234,7 +282,8 @@ const data = {
             "uri": "https://res.cloudinary.com/daaaaanx5/video/upload/v1677336175/songs/grupo_de_musica_-_funky_Untitled_litmvq.mp3",
             "width": 0,
             "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677320460/songs/1140476833_f_nartwl.jpg",
-            "description": "Funky (Untitled) song description - Carlos Ribera (4-string bass), Yago Bernabé (guitar), Diego de Francisco (keyboards). Music by Carlos Ribera, home recorded in Madrid. Another instrumental, probably influenced by the house music I was listening to at the time. This one would be unearthed a few years later by Haba and Gamba Rey as well.",
+            "credits": "- Credits: \n\n - Carlos Ribera (4-string bass) \n - Yago Bernabé (guitar) \n - Diego de Francisco (keyboards) \n\n Music by Carlos Ribera, home recorded in Madrid.",
+            "description1": "Another instrumental, probably influenced by the house music I was listening to at the time. This one would be unearthed a few years later by Haba and Gamba Rey as well.",
         },
         {
             "albumId": "Grupo",
@@ -248,7 +297,8 @@ const data = {
             "uri": "https://res.cloudinary.com/daaaaanx5/video/upload/v1677336856/songs/grupo_de_musica_-_Moonlips_gyljtl.mp3",
             "width": 0,
             "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677320460/songs/1140476833_f_nartwl.jpg",
-            "description": "Moonlips song description - Carlos Ribera (4-string bass, vocals), Yago Bernabé (guitar), Diego de Francisco (keyboards). Music and lyrics by Carlos Ribera, home recorded in Madrid. My only song with lyrics, actually about a girl in a photo ad I kind of fell in love with (or so I thought, once again, I was young and inexperienced lol). Short and... sweet? well after so many 6 minute or longer songs I guess it´s a breather. An outro would be added later on, on some demo home recordings.",
+            "credits": "Credits: \n\n - Carlos Ribera (4-string bass, vocals) \n - Yago Bernabé (guitar) \n - Diego de Francisco (keyboards) \n\n Music and lyrics by Carlos Ribera, home recorded in Madrid.",
+            "description1": "My only song with lyrics, actually about a girl in a photo ad I kind of fell in love with (or so I thought, once again, I was young and unexperienced). Short and... sweet? well after so many 6 minute or longer songs I guess it´s a breather. An outro would be added later on, on some demo home recordings.",
         },
         {
             "albumId": "Grupo",
@@ -262,7 +312,8 @@ const data = {
             "uri": "https://res.cloudinary.com/daaaaanx5/video/upload/v1677337867/songs/grupo_de_musica_-_Heavy_2_Untitled_ihx4xx.mp3",
             "width": 0,
             "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677320460/songs/1140476833_f_nartwl.jpg",
-            "description": "Heavy 2 (Untitled) song description - Diego de Francisco (keyboards, vocals), Carlos Ribera (4-string bass), Yago Bernabé (guitar). Music and made-up lyrics by Diego de Francisco, home recorded in Madrid. The second contribution from Diego, long, epic and piano-driven as usual. Once again the shadow of 90's progpower metal can be heard, by that time Diego and myself were listening quite a lot to Angel Dust and an album from a band called 'Hyperion' named 'Where stone is unscarred', which I think can be heard in this song.",
+            "credits": "Credits: \n\n - Diego de Francisco (keyboards, vocals) \n - Carlos Ribera (4-string bass) \n - Yago Bernabé (guitar) \n\n Music and made-up lyrics by Diego de Francisco, home recorded in Madrid.",
+            "description1": "The second contribution from Diego, long, epic and piano-driven as usual. Once again the shadow of 90's progpower metal can be heard, by that time Diego and myself were listening quite a lot to Angel Dust and an album from a band called 'Hyperion' named 'Where stone is unscarred', which I think can be heard in this song.",
             "lastTrack": true
         },
 
@@ -272,33 +323,73 @@ const data = {
             "id": "Jupiter",
             "title": "Jupiter (London, 2019)",
             "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1676664567/songs/proba_5_hukbgo.jpg",
-            "description": "Credits: \n\n - Samy Doreau (drums) \n - Carlos Ribera (7-string bass, rythm guitars on 'Jupiter', recording, editing, programming on all tracks except 'Jupiter') \n - Antonio Parejo (mixing and mastering on all tracks except 'Jupiter', cajon, claps) \n - Ryan Webb (recording, mixing, and solo on 'Jupiter' \n - Daniel Cardoso (Anathema, Cardhouse): mastering on 'Jupiter' \n - Pedro Zapata (vocals on 'Jupiter') \n - Luis Pinedo (guitars on 'Jupiter') \n \n artwork by Monster Rat. \n \n Recorded in London and St. Albans, UK. All songs by Carlos Ribera \n\n So why Jupiter: for some time I was a bit obsessed with love, and especially unrequited one. I couldn't understand how the heart could be so wrong, and why is it making you see something as the most true thing in life, but then it's just all in your head pretty much. \n\n So I kind of came into a conclusion, and blamed it on dopamine. That thing your brain releases when you're in love, but also when you take drugs. So basically it works in a very similar way, you can get addicted to / obsessed with that shit. So it all kind of made sense to me, some things are just too good to be true. There's a saying in spanish which goes like 'not all that glitters is gold', especially all that glitters more than gold. I came up with some images which looked like metaphors to me, like Ulysses and the sirens. Some creatures that sing very beautifully, so much that you actually lose your head and head towards it, and then you get devoured if you come too close. So the only options are getting yourself tied to the mast (if you really want to listen) or just put some wax on your ears. \n\n But back to Jupiter, in what has been probably my biggest heart mistake I sent a drunk sms to that person which ended with something like 'blah blah, from (the city I was in at that moment) to the sea (she was originally from a town in the seaside).' Then she replied: 'and from the sea to Jupiter'. \n\n I never quite understood what that meant, but my head kept somehow ruminating on it. Then after another massive disappointment everything appeared to come into place: something that looks like a star from Earth, but it's actually not. It's a planet, a massive one, actually the biggest one in our solar system, but it's made of gas. Still beautiful to grab your attention, but also terribly hostile, since its gravity will crush anything that comes close, and even if you survived " 
-            + "you would be welcome by a toxic atmosphere and 400 km/h winds. The famous red spot is actually a storm that's bigger than the Earth, and it's been going on for hundreds of years. Jupiter, Dieus Pater, the father of the gods. God is love, they say. \n\n So 'Jupiter' is about that girl, and 'Laura' about the second one. The other songs are not so much related to the concept, to be honest.", 
-            "songs": "4 tracks"
+            "credits": "Credits: \n\n - Samy Doreau (drums) \n - Carlos Ribera (7-string bass, rythm guitars on 'Jupiter', recording, editing, programming on all tracks except 'Jupiter') \n - Antonio Parejo (mixing and mastering on all tracks except 'Jupiter', cajon, claps) \n - Ryan Webb (recording, mixing, and solo on 'Jupiter' \n - Daniel Cardoso (Anathema, Cardhouse): mastering on 'Jupiter' \n - Pedro Zapata (vocals on 'Jupiter') \n - Luis Pinedo (guitars on 'Jupiter') \n \n artwork by Monster Rat. \n \n Recorded in London and St. Albans, UK. All songs by Carlos Ribera",
+            "description1": "After leaving Imaginary Dreamers, I started working back in my ever changing solo project. I set up a YouTube channel and social media etc under the quite self-explanatory name of 'Lastbullet' ('if it doesn't work this time, I'll quit' kind of stuff, we've all been there), and started uploading covers and some originals. I used YouTube annotations to tell a bit of the story behind the songs but like a couple of months later that feature was removed... I re-recorded the title track with some guest musicians and then I asked Samy from ID if he wanted to join for some YT covers.",
+            "description2": "Then later on I went for a full EP, with Samy on the drums again, becoming some sort of official member",
+            "description3": "So why Jupiter: for some time I was a bit obsessed with love, and especially unrequited one. I couldn't understand how the heart could be so wrong, and why is it making you see something as the most true thing in life, but then it's just all in your head pretty much. \n\n So I kind of came into a conclusion, and blamed it on dopamine. That thing your brain releases when you're in love, but also when you take drugs. So basically it works in a very similar way, you can get addicted to / obsessed with that shit. So it all kind of made sense to me, some things are just too good to be true. There's a saying in spanish which goes like 'not all that glitters is gold', especially all that glitters more than gold. I came up with some images which looked like metaphors to me, like Ulysses and the sirens. Some creatures that sing very beautifully, so much that you actually lose your head and head towards it, and then you get devoured if you come too close. So the only options are getting yourself tied to the mast (if you really want to listen) or just put some wax on your ears. \n\n But back to Jupiter, in what has been probably my biggest heart mistake I sent a drunk sms to that person which ended with something like 'blah blah, from (the city I was in at that moment) to the sea (she was originally from a town in the seaside).' Then she replied: 'and from the sea to Jupiter'. \n\n I never quite understood what that meant, but my head kept somehow ruminating on it. Then after another massive disappointment everything appeared to come into place: something that looks like a star from Earth, but it's actually not. It's a planet, a massive one, actually the biggest one in our solar system, but it's made of gas. Still beautiful to grab your attention, but also terribly hostile, since its gravity will crush anything that comes close, and even if you survived " +
+                "you would be welcome by a toxic atmosphere and 400 km/h winds. The famous red spot is actually a storm that's bigger than the Earth, and it's been going on for hundreds of years. Jupiter, Dieus Pater, the father of the gods. God is love, they say. \n\n So 'Jupiter' is about that girl, and 'Laura' about the second one. The other songs are not so much related to the concept, to be honest.",
+            "songs": "4 tracks",
+            "photo1": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677528416/songs/atg_edit_cljvma.jpg",
+            "photo3": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677601825/songs/IMG_0476_kwcbc7.jpg",
+            "video1": "HEhPaioArGU",
         },
         {
             "id": "No_one",
             "title": "No one understands what we've been given (Demo - Alicante, 2021)",
             "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677091579/songs/Adobe_Post_20210215_2028420.9385641334842136_xadjz3.png",
-            "description": "Credits: \n\n - Carlos Ribera (7-string bass, recording, mixing, mastering, programming) \n - Andrés Campuzano (virtual instruments). \n\n Home recorded in Alicante, Spain. All songs by Carlos Ribera. \n\n This is a demo I recorded during the pandemic, after getting fired from my job I found myself with some time to go back to the project and salvage some recordings Samy sent a while ago. Problem? The click was there as well... so since I couldn't go to London to re-record them I had to get creative and find a way to remove it, which kind of did the job, but you can still hear it at some points. \n\n The title is a quote from Nevermore's song 'Enemies of Reality' by the late Warrel Dane, an artist who I have always admired and had passed away not long ago. To me it relates to giftedness and the misunderstanding that many times comes with it, not sure if that's what he meant but probably something close. In any case it's a pretty cool quote. \n\n All of the songs are re-recordings of oldies, trying to make the most of the 7-stringer, despite the songs being written for 4-string bass (llágrimes, not a problem), guitar (ember, canon) and pure midi programming (lighthouse) by replacing all guitars and most topline midi parts with e-bow bass", 
+            "credits": "Credits: \n\n - Carlos Ribera (7-string bass, recording, mixing, mastering, programming) \n - Andrés Campuzano (virtual instruments). \n\n Home recorded in Alicante, Spain. All songs by Carlos Ribera.",
+            "description1": "This is a demo I recorded during the pandemic, after getting fired from my day job I found myself with some time to go back to the project and salvage some recordings Samy sent a while ago. Problem? The click was there as well... so since I couldn't go to London to re-record them I had to get creative and find a way to remove it, which kind of did the job, but you can still hear it at some points.",
+            "description2": "The title is a quote from Nevermore's song 'Enemies of Reality' by the late Warrel Dane, an artist who I have always admired and had passed away not long ago. To me it relates to giftedness and the misunderstanding that many times comes with it, not sure if that's what he meant but probably something close. In any case it's a pretty cool quote.",
+            "description3": "All of the songs are re-recordings of oldies, trying to make the most of the 7-stringer, despite the songs being written for 4-string bass (llágrimes, not a problem), guitar (ember, canon) and pure midi programming (lighthouse) by replacing all guitars and most topline midi parts with e-bow bass",
             "songs": "4 tracks",
+            "photo1": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677596209/songs/13239318_209024496157286_4126077700543436371_n_wzmryg.jpg",
+            "photo2": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677597420/songs/20160703_181353_rt5vzn.jpg",
+            "photo3": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677597683/songs/20210617_100949_etchhs.jpg",
+            "video1": "BudILz50Hvo"
         },
         {
             "id": "Rainy",
             "title": "Coal Crows - The Rainy Sessions (Indonesia, 2014)",
             "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677171958/songs/coal_crows_ltvkdk.jpg",
-            "description": "Credits: \n\n - Rizki Djalink (vocals, guitars, recording, editing, mixing and mastering) - Carlos Ribera (bass, backing vocals) \n\n Home recorded in Bogor, Indonesia. Music and lyrics by Carlos Ribera and Rizki Djalink. \n\n Before I moved to London I started having a look at bands websites to see if I could get an idea of the grassroots rock scene there. Then I found this ad of some guy saying he wants to join a band in London. I had a listen to his tracks and it blew my mind. Very adventurous compositions with a great production as well as vocal and instrumental performances. So I contacted the guy, but he said he was based in Indonesia... so for a while we were co-writing online while I tried to find out if there was a way to bring him to London, but none of those plans ended up working out. So for me it was as simple as paying some 15 quid to get one month tourist visa so I decided to go there for three weeks to record some songs. The result was a 5-song EP under the name of 'The Rainy Sessions' (since it was the rainy season in there). The other three tracks were written by Djalink and used for some future purposes so they were all taken offline, but you can listen to one of them for example here https://www.youtube.com/watch?v=xIMu5dwUi1o . \n\n So after buying some gear for Djalink's home studio and some setup, we recorded for around 10 nights (which worked quite ok for my jet lag) and later on Djalink did the mix and master, which was sent to industry proffesionals with positive feedback, but no solid proposition. As time passed we started working on other projects, Djalink becoming a successful producer for other Indonesian bands.",
+            "credits": "Credits: \n\n - Rizki Djalink (vocals, guitars, recording, editing, mixing and mastering) \n - Carlos Ribera (bass, backing vocals) \n\n Home recorded in Bogor, Indonesia. Music and lyrics by Carlos Ribera and Rizki Djalink.",
+            "description1": "Before I moved to London I started having a look at bands websites to see if I could get an idea of the grassroots rock scene there. Then I found this ad of some guy saying he wants to join a band in London. I had a listen to his tracks and it blew my mind. Very adventurous compositions with a great production as well as vocal and instrumental performances. So I contacted the guy, but he said he was based in Indonesia... so for a while we were co-writing online while I tried to find out if there was a way to bring him to London, but none of those plans ended up working out. So for me it was as simple as paying some 15 quid to get one month tourist visa so I decided to go there for three weeks to record some songs.",
+            "description2": "The result was a 5-song EP under the name of 'The Rainy Sessions' (since it was the rainy season in there). The other three tracks were written by Djalink and used for some future purposes so they were all taken offline, but you can listen to one of them for example here: ",
+            "description3": "So after buying some gear for Djalink's home studio and some setup, we recorded for around 10 nights (which worked quite ok for my jet lag) and later on Djalink did the mix and master, which was sent to industry proffesionals with positive feedback, but no solid proposition. As time passed we started working on other projects, Djalink becoming a successful producer for other Indonesian bands.",
             "songs": "2 tracks",
-            "photo1": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677513711/songs/coal_crows_studio_ockth2.jpg"
+            "photo1": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677513711/songs/coal_crows_studio_ockth2.jpg",
+            "photo2": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677513711/songs/coal_crows_recording_dd14uy.jpg",
+            "video1": "xIMu5dwUi1o",
         },
         {
             "id": "Grupo",
             "title": "Grupo de Música - Grabación con grabadora (Madrid, 2002)",
             "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677320460/songs/1140476833_f_nartwl.jpg",
-            "description": "Grupo de Música - Grabación con grabadora (Madrid, 2002) album description - After the split of Blues Juice (instrumental cover band), I decided to go for a more multi-genre approach, just like the one I always had when it comes to songwriting. Stylistic freedom, and extreme crossovers. I usually got bored when playing the same genre all the time. So along with Diego de Francisco (Blues Juice keyboard player) and University colleague Yago Bernabé (Bluesyluz) on guitars we formed a new project. It was called Grupo de Música (spanish for 'Band'), trying to reflect the band's genreless, if that makes sense. We didn't play rock or whatever, we just made music. The band never found a drummer, this is a rehearsal recorded at my place with a cassette recorder (called 'Grabación con grabadora', spanish for 'Tape recorder recording'), so the quality is not great but it sounds surprisingly decent given the circumstances. The band only performed live once with no bassist at a private party and soon all members went their separate ways, but it was a great experience and the first attempt at a creative multi-genre project, which will later take the forms of Haba, Gamba Rey, and finally, Lastbullet. The picture is a view from the garage where the band rehearsed on a rainy day.",
-            "songs": "8 tracks"
-        }
-    ],
+            "credits": "Credits: \n\n - Diego de Francisco (keyboards, vocals) \n - Yago Bernabé (guitars, vocals) \n\n - Carlos Ribera (4-string bass, vocals) \n\n Home recorded in Madrid, Spain. All songs by Diego de Francisco, Yago Bernabé and Carlos Ribera.",
+            "description1": "After the split of Blues Juice (instrumental cover band), I decided to go for a more multi-genre approach, just like the one I always had when it comes to songwriting. Stylistic freedom, and extreme crossovers. I usually got bored when playing the same genre all the time. So along with Diego de Francisco (Blues Juice keyboard player) and University colleague Yago Bernabé (Bluesyluz) on guitars we founded a new project.",
+            "description2": "It was called Grupo de Música (spanish for 'Band'), trying to reflect the band's genreless spirit, if that makes sense. We didn't play rock or whatever, we just made music. The band never found a drummer, this is a rehearsal recorded at my place with a cassette recorder (called 'Grabación con grabadora', spanish for 'Tape recorder recording'), so the quality is... well, the one of a cassette recorder, but it sounds surprisingly decent given the circumstances.",
+            "description3": "The band only performed live once with no bassist at a private party and soon all members went their separate ways, but it was a great experience and the first attempt at a creative multi-genre project, which will later take the forms of Haba, Gamba Rey, and finally, Lastbullet. The picture is a view from the garage where the band rehearsed on a rainy day.",
+            "songs": "8 tracks",
+            "photo1": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677600633/songs/barbacoa_dsmunr.jpg",
+        },
+        {
+            "id": "Truno",
+            "title": "Truño Gourmet - (Madrid, 2012)",
+            "artwork": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677686100/songs/315629_142962042461412_100591953365088_237594_3286565_n_ka3wbo.jpg",
+            "credits": "WARNING: bad sound quality \n\n Credits: \n\n - Enrique Arroba (vocals, drums) \n - Carlos Ribera (guitar) \n\n Terribly recorded rehearsals with a camera in Madrid, Spain. All songs by Enrique Arroba and Carlos Ribera.",
+            "description1": "After many years of playing commercial pop and failing to make it in the mainstream music business as well, I contacted Enrique Arroba through an ad in order to get back to something creative again. I brought my guitar with the intention of playing my tracks (Jupiter, etc) but that wasn't really Enrique's cup of tea, so we just met occasionally, had a few beers and had fun improvising whatever came to our minds.",
+            "description2": "We invited friends regularly to jam, since it was a bit of a therapy. Once my neighbour Daniel García joined us, and then we were discussing something like: 'it sounds like crap, but a deluxe crap'. Hence the name, which means 'Gourmet Turd'. So what started as a joke began to escalate, I wrote a manifesto which basically summarized as 'if music is free, it doesn't need to sound good anymore'. We recorded every single rehearsal and uploaded it to our YouTube channel (apart from one, which is actually for sale in a luxury aluminium foil package, in an ultra limited edition of two copies that are not such: basically they look exactly the same but one of them contains a movie of Jaimito instead of the music, for €3000 each).",
+            "description3": "We played live a couple of times, one of them in Barcelona's international experimental music festival LEM. There was only one cubist home-recording, with distorted drums and other horrible sounding stuff. Finally Enrique moved to Germany so we only played once a year during Christmas. This was the manifesto, lengthy but worth (or not) a read: \n\n"
+            + "Truñophonic Manifesto \n\n Friends of experimental stuff and booze in general: look no further, this is your band. Truño gourmet. The best worst band in the world. Cubist Rock. Experimental progressive Grunge. Deconstructed Hardcore. Too punk for punks. Wild. Ugly. Mad. Ugly. Shabby. Ugly. Demolishing. Puzzling, why not. A one-way trip to the bottom of your intestines."
+            + " Too free. Two drum-kits and half a guitar. Pure spectacle. Alive music, some days goes bad and others worse. Like life itself. Each song is unique, a moment that won't happen again (you will be too drunk to remember...). Each Truño Gourmet show is an exclusive experience, unique, unrepeatable, ephemeral, that will die in time, and won't happen again, like a drunkenness. If you were not there, you lost it forever."
+            + " There's no point in making another kind of music today. Truño Gourmet is rock & roll as it should be. It makes no sense to spend more than 70 euros on a guitar, it makes no sense today to record in a device more expensive than a camera. What for? 400 guys will arrive and download it for free, it doesn't matter if you like it or not. The agreement that existed in music has been broken. One of the parties has broken the contract, but the music world goes on as if nothing happened. There are no big differences musicwise between pre and post digital music, including the music before and after internet 'piracy'. Record companies no longer give a shit for any band. The audience does not pay a cent for anything. We the musicians will not be the only morons that spend their money. We no longer owe anyone, at least not to the same extent as before. Now we have won the right to do what we want, which is exactly what everybody does at home or in their offices. And we TRUÑO Gourmet make an incontestable use and abuse of that right. We won't tune our instruments. We'll rehearse if we feel like it, and we will do it drunk. No rehearsal before the show. We'll play when we want and how we want. We'll play the instruments we want. The songs will last what we want. We'll sing if we feel like, and we'll make up the lyrics. Down with the structure. Moreover, rock & roll now has been unmasked. It has been revealed for what it always was: a product, and the alleged attitude around him was nothing but a marketing strategy."
+            + " The proof is in its evolution: at first it sold the 'live fast and die young' thing. But the years went by and they didn't die, so all of a sudden the motto changed: 'old rockers never die'. And with this excuse the same four bands keep hogging all the market, drowning the incoming bands. On top of the grotesque, the crowd cheers this pathetic ruse, and pay whatever (even in times of crisis) to see some 60 year guys dressed as if they were 25 and jumping with a guitar. For all this, rock must be grotesque, as deformed as this. It must be horrid, ill-sounding, ugly, so that it reflects the current situation, as in the past it was supposed to be: a reflection of the youth of a situation that blah blah blah. Truño Gourmet is the only true rock & roll band alive. Listening to their music is like smelling a shit that smells good, a praise to the shabby and yet the sublime, if you do not like it it will be like saying that a 3-year-old can paint the Guernica . Truño gourmet. The music of the future, today. Death to the tuner! Long life 70-euros guitars! Freedom for rock & roll!",
+            "photo1": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677688485/songs/59350_10151236367475896_2025179961_n_azvxk3.jpg",
+            "photo2": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677688491/songs/mqdefaultCALZK84F_icm8ty.jpg",
+            "photo3": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677688504/songs/254698_3915888223260_1518910015_n_gl6gfm.jpg",
+            "video1": "oOEVnX6Ru4s",
+            "songs": "1 track"
+        },
+        ],
     "endCursor": "363",
     "hasNextPage": false,
     "totalCount": 1
