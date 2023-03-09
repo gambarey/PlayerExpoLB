@@ -54,6 +54,7 @@ const data = {
             "description1": "An old flamenco-metal attempt which kind of fit the two-piece line-up quite well. Most of the cajon and clapping parts finally didn't make it to the final mix, but you can find them on the demos and the rehearsal video below. Some clear Sepultura influences I guess, also perhaps a spanish 2000 band called 'Night to Die', which mixed flamenco and metal as well, in a very different way though.",
             "description3": "The title was my take on a Megadeth one, but can also be linked to the gas nature of Jupiter, which is a sort of small sun that has not ignited",
             "photo1": "https://res.cloudinary.com/daaaaanx5/image/upload/v1677527353/songs/11025647_854167967977879_4260958628395316498_n_tv2xdm.jpg",
+            "photo2": "https://res.cloudinary.com/daaaaanx5/image/upload/v1678118241/songs/20170310_221514_s7oa1t.jpg",
             "video1": "5dRAhFkc0W0"
         }
         ,
