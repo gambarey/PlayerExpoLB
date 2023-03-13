@@ -25,7 +25,8 @@ const { width, height } = Dimensions.get('window');
 const Player = ({ navigation }) => {
   const [currentPosition, setCurrentPosition] = useState(0);
   const context = useContext(AudioContext);
-  let song = context.currentAudio;
+  console.log(context)
+  let song = context.currentAudio 
   const { playbackPosition, playbackDuration, currentAudio, playbackObj } = context;
 
   const calculateSeekBar = () => {
